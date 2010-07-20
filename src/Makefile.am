@@ -7,9 +7,6 @@ epanet2_SOURCES = epanet.c hash.c hydraul.c inpfile.c input1.c input2.c input3.c
 	epanet2.h funcs.h hash.h mempool.h text.h toolkit.h types.h vars.h 
 epanet2_CFLAGS = $(AM_CFLAGS) -DCLE=1 -DLOCALEDIR=\"$(localedir)\"
 
-# set the include path found by configure
-INCLUDES= $(all_includes)
-
 # the library search path.
 epanet2_LDFLAGS = $(all_libraries) 
 
