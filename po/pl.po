@@ -1,28 +1,29 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Polish translation for epanet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the epanet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: epanet\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2008-07-21 18:37+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2009-11-02 23:06+0000\n"
+"Last-Translator: poczciwy <Unknown>\n"
+"Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-07-23 19:52+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
 
 #: src/text.h:289 src/i18n.h:46
 msgid "Node"
-msgstr ""
+msgstr "Węzeł"
 
 #: src/text.h:290 src/i18n.h:47
 msgid "Link"
-msgstr ""
+msgstr "Złącze"
 
 #: src/text.h:291 src/i18n.h:48
 msgid "/day"
@@ -33,6 +34,8 @@ msgid ""
 "\n"
 "... EPANET Version 2.0\n"
 msgstr ""
+"\n"
+"... EPANET wersja 2.0\n"
 
 #: src/text.h:337 src/i18n.h:94
 msgid ""
@@ -46,6 +49,9 @@ msgid ""
 " Correct syntax is:\n"
 " epanet <input file> <output file>\n"
 msgstr ""
+"\n"
+" Prawidłowa składnia:\n"
+" epanet <plik wejściowy> <plik wyjściowy>\n"
 
 #: src/text.h:339 src/i18n.h:96
 msgid ""
@@ -124,7 +130,7 @@ msgstr ""
 
 #: src/text.h:351 src/i18n.h:108
 msgid "  Page 1                                    "
-msgstr ""
+msgstr "  Strona 1                                    "
 
 #: src/text.h:352 src/i18n.h:109
 #, c-format
@@ -134,32 +140,32 @@ msgstr ""
 #: src/text.h:353 src/i18n.h:110
 #, c-format
 msgid "    Number of Junctions................ %-d"
-msgstr ""
+msgstr "    Ilość złączy................ %-d"
 
 #: src/text.h:354 src/i18n.h:111
 #, c-format
 msgid "    Number of Reservoirs............... %-d"
-msgstr ""
+msgstr "    Ilość rezerwuarów............... %-d"
 
 #: src/text.h:355 src/i18n.h:112
 #, c-format
 msgid "    Number of Tanks ................... %-d"
-msgstr ""
+msgstr "    Ilość zbiorników ................... %-d"
 
 #: src/text.h:356 src/i18n.h:113
 #, c-format
 msgid "    Number of Pipes ................... %-d"
-msgstr ""
+msgstr "    Ilość rurociągów ................... %-d"
 
 #: src/text.h:357 src/i18n.h:114
 #, c-format
 msgid "    Number of Pumps ................... %-d"
-msgstr ""
+msgstr "    Ilość pomp ................... %-d"
 
 #: src/text.h:358 src/i18n.h:115
 #, c-format
 msgid "    Number of Valves .................. %-d"
-msgstr ""
+msgstr "    Ilość zaworów .................. %-d"
 
 #: src/text.h:359 src/i18n.h:116
 #, c-format
@@ -255,27 +261,27 @@ msgstr ""
 
 #: src/text.h:380 src/i18n.h:137
 msgid "       No Nodes"
-msgstr ""
+msgstr "       Brak węzłów"
 
 #: src/text.h:381 src/i18n.h:138
 msgid "       All Nodes"
-msgstr ""
+msgstr "       Wszystkie węzły"
 
 #: src/text.h:382 src/i18n.h:139
 msgid "       Selected Nodes"
-msgstr ""
+msgstr "       Wybrane węzły"
 
 #: src/text.h:383 src/i18n.h:140
 msgid "       No Links"
-msgstr ""
+msgstr "       Brak złączy"
 
 #: src/text.h:384 src/i18n.h:141
 msgid "       All Links"
-msgstr ""
+msgstr "       Wszystkie złącza"
 
 #: src/text.h:385 src/i18n.h:142
 msgid "       Selected Links"
-msgstr ""
+msgstr "       Wybrane złącza"
 
 #: src/text.h:386 src/i18n.h:143
 #, c-format
@@ -378,7 +384,7 @@ msgstr ""
 
 #: src/text.h:415 src/i18n.h:172
 msgid "Energy Usage:"
-msgstr ""
+msgstr "Zużycie energii:"
 
 #: src/text.h:417 src/i18n.h:174
 msgid "           Usage   Avg.     Kw-hr      Avg.      Peak      Cost"
@@ -416,11 +422,11 @@ msgstr ""
 #: src/text.h:429 src/i18n.h:186
 #, c-format
 msgid "%s Link Results:"
-msgstr ""
+msgstr "Wyniki złącza %s:"
 
 #: src/text.h:430 src/i18n.h:187
 msgid "Link Results:"
-msgstr ""
+msgstr "Wyniki złącza:"
 
 #: src/text.h:431 src/i18n.h:188
 #, c-format
@@ -431,9 +437,12 @@ msgstr ""
 #, c-format
 msgid ""
 "\n"
-"\f\n"
+"\n"
 "  Page %-d    %60.60s\n"
 msgstr ""
+"\n"
+"\n"
+"  Strona %-d %60.60s\n"
 
 #: src/text.h:435 src/i18n.h:192
 msgid "Retrieving network data..."
@@ -451,7 +460,7 @@ msgstr ""
 
 #: src/text.h:438 src/i18n.h:195
 msgid "Saving results to file..."
-msgstr ""
+msgstr "Zapisz wyniki do..."
 
 #: src/text.h:439 src/i18n.h:196
 #, c-format
@@ -742,7 +751,7 @@ msgstr ""
 #: src/text.h:518 src/i18n.h:275
 #, c-format
 msgid "WARNING: System disconnected because of Link %s"
-msgstr ""
+msgstr "UWAGA: Układ rozłączony w złączu %s"
 
 #: src/text.h:519 src/i18n.h:276
 #, c-format
@@ -769,7 +778,7 @@ msgstr ""
 
 #: src/text.h:526 src/i18n.h:283
 msgid "WARNING: System disconnected."
-msgstr ""
+msgstr "UWAGA: Układ rozłączony."
 
 #: src/text.h:527 src/i18n.h:284
 msgid "WARNING: Pumps cannot deliver enough flow or head."
@@ -781,31 +790,31 @@ msgstr ""
 
 #: src/text.h:529 src/i18n.h:286
 msgid "WARNING: System has negative pressures."
-msgstr ""
+msgstr "UWAGA: W układzie panuje ujemne ciśnienie"
 
 #: src/i18n.h:13
 msgid "above"
-msgstr ""
+msgstr "powyżej"
 
 #: src/i18n.h:14
 msgid "below"
-msgstr ""
+msgstr "poniżej"
 
 #: src/i18n.h:15
 msgid "Hazen-Williams"
-msgstr ""
+msgstr "Hazen-Williams"
 
 #: src/i18n.h:16
 msgid "Darcy-Weisbach"
-msgstr ""
+msgstr "Darcy-Weisbach"
 
 #: src/i18n.h:17
 msgid "Chezy-Manning"
-msgstr ""
+msgstr "Chezy-Manning"
 
 #: src/i18n.h:18
 msgid "Chemical"
-msgstr ""
+msgstr "Chemiczny"
 
 #: src/i18n.h:19
 msgid "closed because cannot deliver head"
@@ -849,7 +858,7 @@ msgstr ""
 
 #: src/i18n.h:30
 msgid "Elevation"
-msgstr ""
+msgstr "Wysokość"
 
 #: src/i18n.h:31
 msgid "Demand"
@@ -861,27 +870,27 @@ msgstr ""
 
 #: src/i18n.h:33
 msgid "Pressure"
-msgstr ""
+msgstr "Ciśnienie"
 
 #: src/i18n.h:34 src/i18n.h:40
 msgid "Quality"
-msgstr ""
+msgstr "Jakość"
 
 #: src/i18n.h:35
 msgid "Length"
-msgstr ""
+msgstr "Długość"
 
 #: src/i18n.h:36
 msgid "Diameter"
-msgstr ""
+msgstr "Średnica"
 
 #: src/i18n.h:37
 msgid "Flow"
-msgstr ""
+msgstr "Przepływ"
 
 #: src/i18n.h:38
 msgid "Velocity"
-msgstr ""
+msgstr "Prędkość"
 
 #: src/i18n.h:39
 msgid "Headloss"
@@ -893,7 +902,7 @@ msgstr ""
 
 #: src/i18n.h:42
 msgid "Setting"
-msgstr ""
+msgstr "Ustawienie"
 
 #: src/i18n.h:43 src/i18n.h:66
 msgid "Reaction"
@@ -905,27 +914,27 @@ msgstr ""
 
 #: src/i18n.h:50
 msgid "Junction"
-msgstr ""
+msgstr "Połączenie"
 
 #: src/i18n.h:51
 msgid "Reservoir"
-msgstr ""
+msgstr "Rezerwuar"
 
 #: src/i18n.h:52
 msgid "Tank"
-msgstr ""
+msgstr "Zbiornik"
 
 #: src/i18n.h:53
 msgid "Pipe"
-msgstr ""
+msgstr "Rurociąg"
 
 #: src/i18n.h:54
 msgid "Pump"
-msgstr ""
+msgstr "Pompa"
 
 #: src/i18n.h:55
 msgid "Valve"
-msgstr ""
+msgstr "Zawór"
 
 #: src/i18n.h:56
 msgid "Control"
@@ -941,7 +950,7 @@ msgstr ""
 
 #: src/i18n.h:59
 msgid "Source"
-msgstr ""
+msgstr "Źródło"
 
 #: src/i18n.h:60
 msgid "Emitter"
@@ -949,23 +958,23 @@ msgstr ""
 
 #: src/i18n.h:61
 msgid "Pattern"
-msgstr ""
+msgstr "Wzór"
 
 #: src/i18n.h:62
 msgid "Curve"
-msgstr ""
+msgstr "Łuk"
 
 #: src/i18n.h:63
 msgid "Status"
-msgstr ""
+msgstr "Stan"
 
 #: src/i18n.h:64
 msgid "Roughness"
-msgstr ""
+msgstr "Chropowatość"
 
 #: src/i18n.h:65
 msgid "Energy"
-msgstr ""
+msgstr "Energia"
 
 #: src/i18n.h:67
 msgid "Mixing"
@@ -973,7 +982,7 @@ msgstr ""
 
 #: src/i18n.h:68
 msgid "Report"
-msgstr ""
+msgstr "Raport"
 
 #: src/i18n.h:69
 msgid "Times"
@@ -981,7 +990,7 @@ msgstr ""
 
 #: src/i18n.h:70
 msgid "Options"
-msgstr ""
+msgstr "Opcje"
 
 #: src/i18n.h:71
 msgid "[RULES] section"
@@ -1001,11 +1010,11 @@ msgstr ""
 
 #: src/i18n.h:75
 msgid "  /m3"
-msgstr ""
+msgstr "  /m3"
 
 #: src/i18n.h:76
 msgid "/Mgal"
-msgstr ""
+msgstr "/MGal"
 
 #: src/i18n.h:77
 msgid "DIFFERENTIAL"
@@ -1013,11 +1022,11 @@ msgstr ""
 
 #: src/i18n.h:82 src/i18n.h:92
 msgid "******************************************************************"
-msgstr ""
+msgstr "******************************************************************"
 
 #: src/i18n.h:84
 msgid "*                           E P A N E T                          *"
-msgstr ""
+msgstr "* E P A N E T *"
 
 #: src/i18n.h:86
 msgid "*                   Hydraulic and Water Quality                  *"
@@ -1029,4 +1038,4 @@ msgstr ""
 
 #: src/i18n.h:90
 msgid "*                         Version 2.00.12                        *"
-msgstr ""
+msgstr "* Wersja 2.00.12 *"
