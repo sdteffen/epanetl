@@ -1,3 +1,13 @@
+EPANETL is a localized version of the offificial EPANET version.
+It is maintained on epanet.de.
+EPANETL adds an additional (fourth) number to the end of the original EPANET 
+version number in order to indicate EPANETL releases.
+
+While the EPANET sources are in the public domain, EPANETL is released
+under the terms of the GPL.
+
+The following is the EPANET README.
+
 Contents of EPANET2.ZIP
 =======================
 This archive contains the source code for the EPANET 2

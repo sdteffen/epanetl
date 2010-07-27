@@ -1,4 +1,4 @@
-AC_INIT([epanet],[2.0.12.1],[https://sourceforge.net/tracker/?group_id=5289&atid=105289])
+AC_INIT([epanetl],[2.0.12.1],[https://sourceforge.net/tracker/?group_id=5289&atid=105289])
 AC_CANONICAL_HOST
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 AC_CONFIG_HEADERS([config.h])
