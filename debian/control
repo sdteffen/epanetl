@@ -1,10 +1,10 @@
 Source: epanetl
-Section: Science 
+Section: math
 Priority: extra
 Maintainer: Steffen Macke <sdteffen@sdteffen.de>
 Build-Depends: debhelper (>= 7), autotools-dev
 Standards-Version: 3.8.3
-Homepage: http://www.epanet.de 
+Homepage: http://www.epanet.de
 
 Package: epanetl
 Architecture: any

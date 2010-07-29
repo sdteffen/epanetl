@@ -1,3 +1,3 @@
-EXTRA_DIST = changelog compat control copyright docs epanetl-docs.docs \
+EXTRA_DIST = changelog compat control copyright docs epanetl-doc.docs \
 	     epanetl-doc.install rules
 
