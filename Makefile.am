@@ -4,6 +4,6 @@ AUTOMAKE_OPTIONS = foreign 1.4
 
 SUBDIRS = po src
 
-EXTRA_DIST = config.rpath m4/ChangeLog  Makefile.in
+EXTRA_DIST = config.rpath m4/ChangeLog  Makefile.in epanetl.spec
 
 ACLOCAL_AMFLAGS = -I m4
