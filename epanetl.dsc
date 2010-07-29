@@ -2,7 +2,8 @@ Format: 1.0
 Source: epanetl
 Binary: epanetl, epanetl-doc
 Architecture: any
-Version: 2.0.12.1-3
+Version: 2.0.12.1-4
+Section: Science
 Maintainer: Steffen Macke <sdteffen@sdteffen.de>
 Standards-Version: 3.7.2
 Build-Depends: autotools-dev, debhelper (>=5)

@@ -1,0 +1,18 @@
+Source: epanetl
+Section: Science 
+Priority: extra
+Maintainer: Steffen Macke <sdteffen@sdteffen.de>
+Build-Depends: debhelper (>= 7), autotools-dev
+Standards-Version: 3.8.3
+Homepage: http://www.epanet.de 
+
+Package: epanetl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Hydraulic analysis of water distribution systems 
+ Localized version of the hydraulic analysis package EPANET. 
+
+Package: epanetl-doc
+Architecture: all
+Description: Documentation for epanetl
+ Documentation for the epanetl hydraulic analysis package. 

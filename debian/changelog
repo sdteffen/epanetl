@@ -1,0 +1,11 @@
+epanetl (2.0.12.2-5) lucid; urgency=low
+
+  * Second release, includes deb build system
+
+ -- Steffen Macke <sdteffen@sdteffen.de>  Thu, 29 Jul 2010 20:49:58 +0200
+
+epanetl (2.0.12.1-1) unstable; urgency=low
+
+  * Initial release 
+
+ -- Steffen Macke <sdteffen@sdteffen.de>  Wed, 28 Jul 2010 21:49:58 +0200
