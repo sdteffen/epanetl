@@ -1,9 +1,9 @@
-Name: epanet
-Version: 2.0.12
+Name: epanetl
+Version: 2.0.12.2
 Release: 3
 Vendor: epanet.de
 License: GPL
-Summary: EPANET models water distribution piping systems
+Summary: Model water distribution piping systems
 Group: Productivity/Other
 Packager: Steffen Macke <sdteffen@sdteffen.de>
 BuildRoot:  %{_tmppath}/%{name}-%{version}-build 
@@ -12,7 +12,8 @@ Url: http://epanet.de
 BuildRequires: glibc-devel 
 
 %description
-EPANET models water distribution piping systems (hydraulic analysis).
+EPANETL models water distribution piping systems (hydraulic analysis).
+Localized version of the popular EPANET hydraulic modelling package.
 
 %prep
 %setup
@@ -28,27 +29,21 @@ rm -rf %{buildroot}
 %clean
 rm -rf %{buildroot}
 
-%post -p /sbin/ldconfig
-%postun -p /sbin/ldconfig
 %files
 %defattr(-, root, root)
 %doc AUTHORS COPYING ChangeLog NEWS README TODO
-/usr/bin/epanet2
-/usr/share/locale/de/LC_MESSAGES/epanet.mo
-
-%package devel
-Summary: EPANET developer files
-Group: Productivity/Other
-%description
-EPANET developer files: Header files and libraries
-
-%files
-/usr/include/toolkit.h
-%_libdir/libepanet2.so
-%_libdir/libepanet2.so.0
-%_libdir/libepanet2.so.0.0.0
-%_libdir/libepanet2.a
-%_libdir/libepanet2.la
+/usr/bin/epanetl
+/usr/share/locale/de/LC_MESSAGES/epanetl.mo
+/usr/share/locale/ca/LC_MESSAGES/epanetl.mo
+/usr/share/locale/es/LC_MESSAGES/epanetl.mo
+/usr/share/locale/pl/LC_MESSAGES/epanetl.mo
+%exclude %{_includedir}/toolkit.h
+%exclude %{_includedir}/toolkit.h
+%exclude %_libdir/libepanetl.so
+%exclude %_libdir/libepanetl.so.0
+%exclude %_libdir/libepanetl.so.0.0.0
+%exclude %_libdir/libepanetl.a
+%exclude %_libdir/libepanetl.la
 
 %changelog
 * Tue Nov 09 2010 - Steffen Macke <sdteffen@sdteffen.de>
