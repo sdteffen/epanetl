@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Hydraulic Analysis</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Hydraulic Analysis">
+</OBJECT>
+
+<P><A NAME="hydraulic_analysis"></A></P>
+
+<H2>Hydraulic Analysis</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P>EPANET's hydraulic simulation model computes hydraulic heads at junctions and flow rates through links for a fixed set of reservoir levels, tank levels, and water demands over a succession of points in time. From one time step to the next reservoir levels and junction demands are updated according to their prescribed time patterns while tank levels are updated using the current flow solution. The solution for heads and flows at a particular point in time involves solving simultaneously the conservation of flow equation for each junction and the headloss relationship across each link in the network. This process, known as hydraulically balancing the network, requires using an iterative technique to solve the nonlinear equations involved. EPANET employs the Gradient Algorithm for this purpose. </P>
+
+<P></P>
+
+<P>The hydraulic time step used for extended period simulation (EPS) can be set by the user. A typical value is 1 hour. Shorter time steps than normal will occur automatically whenever one of the following events occurs:</P>
+
+<P>· the next output reporting time period occurs</P>
+
+<P>·the next time pattern period occurs</P>
+
+<P>·a tank becomes empty or full</P>
+
+<P>·a simple or rule-based control is activated.</P>
+
+</BODY>
+</HTML>

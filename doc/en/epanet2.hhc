@@ -1,0 +1,1134 @@
+<HTML>
+<!--Sitemap 1.0-->
+<OBJECT type="text/site properties">
+</OBJECT>
+<UL>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="Introduction">
+		<param name="Local" value="html/afw6.r.htm">
+		</OBJECT>
+		<A HREF="html/afw6.r.htm">Introduction</A><BR>
+	<UL>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="What is EPANET">
+			<param name="Local" value="html/what_is_epanet.htm">
+			</OBJECT>
+			<A HREF="html/what_is_epanet.htm">What is EPANET</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Hydraulic Modeling Capabilities">
+			<param name="Local" value="html/hydraulic_modeling_capabilitie.htm">
+			</OBJECT>
+			<A HREF="html/hydraulic_modeling_capabilitie.htm">Hydraulic Modeling Capabilities</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Water Quality Modeling Capabilities">
+			<param name="Local" value="html/water_quality_modeling_capabil.htm">
+			</OBJECT>
+			<A HREF="html/water_quality_modeling_capabil.htm">Water Quality Modeling Capabilities</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Network Components">
+			<param name="Local" value="html/network_components.htm">
+			</OBJECT>
+			<A HREF="html/network_components.htm">Network Components</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Hydraulic Analysis">
+			<param name="Local" value="html/hydraulic_analysis.htm">
+			</OBJECT>
+			<A HREF="html/hydraulic_analysis.htm">Hydraulic Analysis</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Water Quality Analysis">
+			<param name="Local" value="html/water_quality_analysis.htm">
+			</OBJECT>
+			<A HREF="html/water_quality_analysis.htm">Water Quality Analysis</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Steps in Using EPANET">
+			<param name="Local" value="html/steps_in_using_epanet.htm">
+			</OBJECT>
+			<A HREF="html/steps_in_using_epanet.htm">Steps in Using EPANET</A><BR>
+	</UL>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="EPANET's Workspace">
+		<param name="Local" value="html/r34hrr.htm">
+		</OBJECT>
+		<A HREF="html/r34hrr.htm">EPANET's Workspace</A><BR>
+	<UL>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Menu Bar">
+			<param name="Local" value="html/menu_bar.htm">
+			</OBJECT>
+			<A HREF="html/menu_bar.htm">Menu Bar</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Toolbars">
+			<param name="Local" value="html/toolbars.htm">
+			</OBJECT>
+			<A HREF="html/toolbars.htm">Toolbars</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Status Bar">
+			<param name="Local" value="html/status_bar.htm">
+			</OBJECT>
+			<A HREF="html/status_bar.htm">Status Bar</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Network Map">
+			<param name="Local" value="html/network_map.htm">
+			</OBJECT>
+			<A HREF="html/network_map.htm">Network Map</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Map Browser">
+			<param name="Local" value="html/map_browser.htm">
+			</OBJECT>
+			<A HREF="html/map_browser.htm">Map Browser</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Property Editor">
+			<param name="Local" value="html/property_editor.htm">
+			</OBJECT>
+			<A HREF="html/property_editor.htm">Property Editor</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Setting Program Preferences">
+			<param name="Local" value="html/setting_program_preferences.htm">
+			</OBJECT>
+			<A HREF="html/setting_program_preferences.htm">Setting Program Preferences</A><BR>
+	</UL>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="Working with Projects">
+		<param name="Local" value="html/1.9nx2g.htm">
+		</OBJECT>
+		<A HREF="html/1.9nx2g.htm">Working with Projects</A><BR>
+	<UL>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Creating a New Project">
+			<param name="Local" value="html/creating_a_new_project.htm">
+			</OBJECT>
+			<A HREF="html/creating_a_new_project.htm">Creating a New Project</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Opening an Existing Project">
+			<param name="Local" value="html/opening_an_existing_project.htm">
+			</OBJECT>
+			<A HREF="html/opening_an_existing_project.htm">Opening an Existing Project</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Saving a Project">
+			<param name="Local" value="html/saving_a_project.htm">
+			</OBJECT>
+			<A HREF="html/saving_a_project.htm">Saving a Project</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Setting Project Defaults">
+			<param name="Local" value="html/setting_project_defaults.htm">
+			</OBJECT>
+			<A HREF="html/setting_project_defaults.htm">Setting Project Defaults</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Registering Calibration Data">
+			<param name="Local" value="html/registering_calibration_data.htm">
+			</OBJECT>
+			<A HREF="html/registering_calibration_data.htm">Registering Calibration Data</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Viewing a Project Summary">
+			<param name="Local" value="html/viewing_a_project_summary.htm">
+			</OBJECT>
+			<A HREF="html/viewing_a_project_summary.htm">Viewing a Project Summary</A><BR>
+	</UL>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="Working with Objects">
+		<param name="Local" value="html/1902tj3.htm">
+		</OBJECT>
+		<A HREF="html/1902tj3.htm">Working with Objects</A><BR>
+	<UL>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Types of Objects">
+			<param name="Local" value="html/types_of_objects.htm">
+			</OBJECT>
+			<A HREF="html/types_of_objects.htm">Types of Objects</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Adding an Object">
+			<param name="Local" value="html/adding_an_object.htm">
+			</OBJECT>
+			<A HREF="html/adding_an_object.htm">Adding an Object</A><BR>
+		<UL>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Adding a curve">
+				<param name="Local" value="html/adding_a_curve.htm">
+				</OBJECT>
+				<A HREF="html/adding_a_curve.htm">Adding a curve</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Adding a link">
+				<param name="Local" value="html/adding_a_link.htm">
+				</OBJECT>
+				<A HREF="html/adding_a_link.htm">Adding a link</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Adding a map label">
+				<param name="Local" value="html/adding_a_map_label.htm">
+				</OBJECT>
+				<A HREF="html/adding_a_map_label.htm">Adding a map label</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Adding a node">
+				<param name="Local" value="html/adding_a_node.htm">
+				</OBJECT>
+				<A HREF="html/adding_a_node.htm">Adding a node</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Adding a time pattern">
+				<param name="Local" value="html/adding_a_time_pattern.htm">
+				</OBJECT>
+				<A HREF="html/adding_a_time_pattern.htm">Adding a time pattern</A><BR>
+		</UL>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Selecting an Object">
+			<param name="Local" value="html/selecting_an_object.htm">
+			</OBJECT>
+			<A HREF="html/selecting_an_object.htm">Selecting an Object</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Editing an Object">
+			<param name="Local" value="html/editing_an_object.htm">
+			</OBJECT>
+			<A HREF="html/editing_an_object.htm">Editing an Object</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Copying and Pasting Object Properties">
+			<param name="Local" value="html/copying_and_pasting_objects.htm">
+			</OBJECT>
+			<A HREF="html/copying_and_pasting_objects.htm">Copying and Pasting Object Properties</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Shaping a Link">
+			<param name="Local" value="html/shaping_a_link.htm">
+			</OBJECT>
+			<A HREF="html/shaping_a_link.htm">Shaping a Link</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Deleting an Object">
+			<param name="Local" value="html/deleting_an_object.htm">
+			</OBJECT>
+			<A HREF="html/deleting_an_object.htm">Deleting an Object</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Moving an Object">
+			<param name="Local" value="html/moving_an_object.htm">
+			</OBJECT>
+			<A HREF="html/moving_an_object.htm">Moving an Object</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Selecting a Group of Objects">
+			<param name="Local" value="html/selecting_a_group_of_objects.htm">
+			</OBJECT>
+			<A HREF="html/selecting_a_group_of_objects.htm">Selecting a Group of Objects</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Editing a Group of Objects">
+			<param name="Local" value="html/editing_a_group_of_objects.htm">
+			</OBJECT>
+			<A HREF="html/editing_a_group_of_objects.htm">Editing a Group of Objects</A><BR>
+	</UL>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="Working with the Map">
+		<param name="Local" value="html/2y1e5c6.htm">
+		</OBJECT>
+		<A HREF="html/2y1e5c6.htm">Working with the Map</A><BR>
+	<UL>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Selecting a Map View">
+			<param name="Local" value="html/selecting_a_map_view.htm">
+			</OBJECT>
+			<A HREF="html/selecting_a_map_view.htm">Selecting a Map View</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Setting the Map Scale">
+			<param name="Local" value="html/5mhi_d1.htm">
+			</OBJECT>
+			<A HREF="html/5mhi_d1.htm">Setting the Map Scale</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Utilizing a Backdrop Map">
+			<param name="Local" value="html/utilizing_a_backdrop_map.htm">
+			</OBJECT>
+			<A HREF="html/utilizing_a_backdrop_map.htm">Utilizing a Backdrop Map</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Zooming the Map">
+			<param name="Local" value="html/zooming_the_map.htm">
+			</OBJECT>
+			<A HREF="html/zooming_the_map.htm">Zooming the Map</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Panning the Map">
+			<param name="Local" value="html/panning_the_map.htm">
+			</OBJECT>
+			<A HREF="html/panning_the_map.htm">Panning the Map</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Viewing at Full Extent">
+			<param name="Local" value="html/viewing_at_full_extent.htm">
+			</OBJECT>
+			<A HREF="html/viewing_at_full_extent.htm">Viewing at Full Extent</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Finding an Object">
+			<param name="Local" value="html/finding_an_object.htm">
+			</OBJECT>
+			<A HREF="html/finding_an_object.htm">Finding an Object</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Using the Map Legends">
+			<param name="Local" value="html/map_legends.htm">
+			</OBJECT>
+			<A HREF="html/map_legends.htm">Using the Map Legends</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Using the Overview Map">
+			<param name="Local" value="html/overview_map.htm">
+			</OBJECT>
+			<A HREF="html/overview_map.htm">Using the Overview Map</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Setting Map Display Options">
+			<param name="Local" value="html/map_display_options.htm">
+			</OBJECT>
+			<A HREF="html/map_display_options.htm">Setting Map Display Options</A><BR>
+		<UL>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Map Dimensions Dialog Box">
+				<param name="Local" value="html/map_dimensions_dialog_box.htm">
+				</OBJECT>
+				<A HREF="html/map_dimensions_dialog_box.htm">Map Dimensions Dialog Box</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Map Label Properties">
+				<param name="Local" value="html/map_label_properties.htm">
+				</OBJECT>
+				<A HREF="html/map_label_properties.htm">Map Label Properties</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Map Labels">
+				<param name="Local" value="html/map_labels.htm">
+				</OBJECT>
+				<A HREF="html/map_labels.htm">Map Labels</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Map Options - Arrows">
+				<param name="Local" value="html/dos5e0.htm">
+				</OBJECT>
+				<A HREF="html/dos5e0.htm">Map Options - Arrows</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Map Options - Background">
+				<param name="Local" value="html/2hnj1j5.htm">
+				</OBJECT>
+				<A HREF="html/2hnj1j5.htm">Map Options - Background</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Map Options - Labels">
+				<param name="Local" value="html/256vmu.htm">
+				</OBJECT>
+				<A HREF="html/256vmu.htm">Map Options - Labels</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Map Options - Links">
+				<param name="Local" value="html/0wpvug.htm">
+				</OBJECT>
+				<A HREF="html/0wpvug.htm">Map Options - Links</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Map Options - Nodes">
+				<param name="Local" value="html/0yvlog.htm">
+				</OBJECT>
+				<A HREF="html/0yvlog.htm">Map Options - Nodes</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Map Options - Notation">
+				<param name="Local" value="html/5amdgrp.htm">
+				</OBJECT>
+				<A HREF="html/5amdgrp.htm">Map Options - Notation</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Map Options - Symbols">
+				<param name="Local" value="html/tj8vkz.htm">
+				</OBJECT>
+				<A HREF="html/tj8vkz.htm">Map Options - Symbols</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Map Toolbar">
+				<param name="Local" value="html/map_toolbar.htm">
+				</OBJECT>
+				<A HREF="html/map_toolbar.htm">Map Toolbar</A><BR>
+		</UL>
+	</UL>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="Analyzing a Network">
+		<param name="Local" value="html/187lwn1.htm">
+		</OBJECT>
+		<A HREF="html/187lwn1.htm">Analyzing a Network</A><BR>
+	<UL>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Setting Analysis Options">
+			<param name="Local" value="html/setting_analysis_options.htm">
+			</OBJECT>
+			<A HREF="html/setting_analysis_options.htm">Setting Analysis Options</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Running an Analysis">
+			<param name="Local" value="html/running_an_analysis.htm">
+			</OBJECT>
+			<A HREF="html/running_an_analysis.htm">Running an Analysis</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Troubleshooting Results">
+			<param name="Local" value="html/troubleshooting_results.htm">
+			</OBJECT>
+			<A HREF="html/troubleshooting_results.htm">Troubleshooting Results</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Analysis Options">
+			<param name="Local" value="html/analysis_options.htm">
+			</OBJECT>
+			<A HREF="html/analysis_options.htm">Analysis Options</A><BR>
+		<UL>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Analysis Options - Energy">
+				<param name="Local" value="html/1n3ozj5.htm">
+				</OBJECT>
+				<A HREF="html/1n3ozj5.htm">Analysis Options - Energy</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Analysis Options - Hydraulics">
+				<param name="Local" value="html/xk_b0r.htm">
+				</OBJECT>
+				<A HREF="html/xk_b0r.htm">Analysis Options - Hydraulics</A><BR>
+			<UL>
+				<LI><OBJECT type="text/sitemap">
+					<param name="Name" value="Darcy-Weisbach Formula">
+					<param name="Local" value="html/12ngy5q.htm">
+					</OBJECT>
+					<A HREF="html/12ngy5q.htm">Darcy-Weisbach Formula</A><BR>
+				<LI><OBJECT type="text/sitemap">
+					<param name="Name" value="Chezy-Manning Formula">
+					<param name="Local" value="html/chezy_manning_formula.htm">
+					</OBJECT>
+					<A HREF="html/chezy_manning_formula.htm">Chezy-Manning Formula</A><BR>
+				<LI><OBJECT type="text/sitemap">
+					<param name="Name" value="Hazen-Williams Formula">
+					<param name="Local" value="html/2222_uh.htm">
+					</OBJECT>
+					<A HREF="html/2222_uh.htm">Hazen-Williams Formula</A><BR>
+			</UL>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Analysis Options - Quality">
+				<param name="Local" value="html/_lzz3c.htm">
+				</OBJECT>
+				<A HREF="html/_lzz3c.htm">Analysis Options - Quality</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Analysis Options - Reactions">
+				<param name="Local" value="html/1.9mfor.htm">
+				</OBJECT>
+				<A HREF="html/1.9mfor.htm">Analysis Options - Reactions</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Analysis Options - Times">
+				<param name="Local" value="html/0uqggx.htm">
+				</OBJECT>
+				<A HREF="html/0uqggx.htm">Analysis Options - Times</A><BR>
+		</UL>
+	</UL>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="Viewing Results">
+		<param name="Local" value="html/g4ng4.htm">
+		</OBJECT>
+		<A HREF="html/g4ng4.htm">Viewing Results</A><BR>
+	<UL>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Viewing Results on the Map">
+			<param name="Local" value="html/viewing_results_on_the_map.htm">
+			</OBJECT>
+			<A HREF="html/viewing_results_on_the_map.htm">Viewing Results on the Map</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Viewing Results with a Graph">
+			<param name="Local" value="html/viewing_results_with_a_graph.htm">
+			</OBJECT>
+			<A HREF="html/viewing_results_with_a_graph.htm">Viewing Results with a Graph</A><BR>
+		<UL>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Graph Options - Axes">
+				<param name="Local" value="html/r1jstk.htm">
+				</OBJECT>
+				<A HREF="html/r1jstk.htm">Graph Options - Axes</A><BR>
+			<UL>
+				<LI><OBJECT type="text/sitemap">
+					<param name="Name" value="Graph Options - General">
+					<param name="Local" value="html/13c.7_c.htm">
+					</OBJECT>
+					<A HREF="html/13c.7_c.htm">Graph Options - General</A><BR>
+				<LI><OBJECT type="text/sitemap">
+					<param name="Name" value="Graph Options - Legend">
+					<param name="Local" value="html/2a066h4.htm">
+					</OBJECT>
+					<A HREF="html/2a066h4.htm">Graph Options - Legend</A><BR>
+				<LI><OBJECT type="text/sitemap">
+					<param name="Name" value="Graph Options - Series">
+					<param name="Local" value="html/1v150s3.htm">
+					</OBJECT>
+					<A HREF="html/1v150s3.htm">Graph Options - Series</A><BR>
+				<LI><OBJECT type="text/sitemap">
+					<param name="Name" value="Graph Options Dialog Box">
+					<param name="Local" value="html/graph_options_dialog_box.htm">
+					</OBJECT>
+					<A HREF="html/graph_options_dialog_box.htm">Graph Options Dialog Box</A><BR>
+				<LI><OBJECT type="text/sitemap">
+					<param name="Name" value="Graph Selection Dialog Box">
+					<param name="Local" value="html/graph_selection_dialog_box.htm">
+					</OBJECT>
+					<A HREF="html/graph_selection_dialog_box.htm">Graph Selection Dialog Box</A><BR>
+			</UL>
+		</UL>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Viewing Results with a Table">
+			<param name="Local" value="html/viewing_results_with_a_table.htm">
+			</OBJECT>
+			<A HREF="html/viewing_results_with_a_table.htm">Viewing Results with a Table</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Viewing Special Reports">
+			<param name="Local" value="html/viewing_special_reports.htm">
+			</OBJECT>
+			<A HREF="html/viewing_special_reports.htm">Viewing Special Reports</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Animating the Map">
+			<param name="Local" value="html/animating_the_map.htm">
+			</OBJECT>
+			<A HREF="html/animating_the_map.htm">Animating the Map</A><BR>
+	</UL>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="Printing">
+		<param name="Local" value="html/py.juc.htm">
+		</OBJECT>
+		<A HREF="html/py.juc.htm">Printing</A><BR>
+	<UL>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Selecting a Printer">
+			<param name="Local" value="html/selecting_a_printer.htm">
+			</OBJECT>
+			<A HREF="html/selecting_a_printer.htm">Selecting a Printer</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Setting the Page Format">
+			<param name="Local" value="html/setting_the_page_format.htm">
+			</OBJECT>
+			<A HREF="html/setting_the_page_format.htm">Setting the Page Format</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Previewing the page">
+			<param name="Local" value="html/3ybxui.htm">
+			</OBJECT>
+			<A HREF="html/3ybxui.htm">Previewing the page</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Printing the Current View">
+			<param name="Local" value="html/printing_the_current_view.htm">
+			</OBJECT>
+			<A HREF="html/printing_the_current_view.htm">Printing the Current View</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Copying the Current View">
+			<param name="Local" value="html/copying_a_view.htm">
+			</OBJECT>
+			<A HREF="html/copying_a_view.htm">Copying the Current View</A><BR>
+	</UL>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="Importing and Exporting">
+		<param name="Local" value="html/j_k3m6.htm">
+		</OBJECT>
+		<A HREF="html/j_k3m6.htm">Importing and Exporting</A><BR>
+	<UL>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Project Scenarios">
+			<param name="Local" value="html/project_scenarios.htm">
+			</OBJECT>
+			<A HREF="html/project_scenarios.htm">Project Scenarios</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Importing a Scenario">
+			<param name="Local" value="html/importing_a_scenario.htm">
+			</OBJECT>
+			<A HREF="html/importing_a_scenario.htm">Importing a Scenario</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Exporting a Scenario">
+			<param name="Local" value="html/exporting_a_scenario.htm">
+			</OBJECT>
+			<A HREF="html/exporting_a_scenario.htm">Exporting a Scenario</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Importing a Partial Network">
+			<param name="Local" value="html/importing_a_partial_network.htm">
+			</OBJECT>
+			<A HREF="html/importing_a_partial_network.htm">Importing a Partial Network</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Importing a Network Map">
+			<param name="Local" value="html/importing_a_network_map.htm">
+			</OBJECT>
+			<A HREF="html/importing_a_network_map.htm">Importing a Network Map</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Exporting the Map">
+			<param name="Local" value="html/1k.oiwe.htm">
+			</OBJECT>
+			<A HREF="html/1k.oiwe.htm">Exporting the Map</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Exporting to Text File">
+			<param name="Local" value="html/exporting_to_text_file.htm">
+			</OBJECT>
+			<A HREF="html/exporting_to_text_file.htm">Exporting to Text File</A><BR>
+	</UL>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="Frequently Asked Questions">
+		<param name="Local" value="html/frequently_asked_questions.htm">
+		</OBJECT>
+		<A HREF="html/frequently_asked_questions.htm">Frequently Asked Questions</A><BR>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="Reference">
+		</OBJECT>
+	<UL>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Units of Measurement">
+			<param name="Local" value="html/units_of_measurement.htm">
+			</OBJECT>
+			<A HREF="html/units_of_measurement.htm">Units of Measurement</A><BR>
+		<UL>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Metric Units">
+				<param name="Local" value="html/metric_units.htm">
+				</OBJECT>
+				<A HREF="html/metric_units.htm">Metric Units</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="US Units">
+				<param name="Local" value="html/us_units.htm">
+				</OBJECT>
+				<A HREF="html/us_units.htm">US Units</A><BR>
+			<LI><OBJECT type="text/sitemap">
+				<param name="Name" value="Flow Units">
+				<param name="Local" value="html/flow_units.htm">
+				</OBJECT>
+				<A HREF="html/flow_units.htm">Flow Units</A><BR>
+		</UL>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Error Messages">
+			<param name="Local" value="html/error_messages.htm">
+			</OBJECT>
+			<A HREF="html/error_messages.htm">Error Messages</A><BR>
+	</UL>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="Index">
+		</OBJECT>
+	<UL>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Auto-Length Setting">
+			<param name="Local" value="html/1jegt75.htm">
+			</OBJECT>
+			<A HREF="html/1jegt75.htm">Auto-Length Setting</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Bulk Flow Reaction Rates">
+			<param name="Local" value="html/bulk_flow_reaction_rates.htm">
+			</OBJECT>
+			<A HREF="html/bulk_flow_reaction_rates.htm">Bulk Flow Reaction Rates</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Calibration File">
+			<param name="Local" value="html/calibration_file.htm">
+			</OBJECT>
+			<A HREF="html/calibration_file.htm">Calibration File</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Calibration Report">
+			<param name="Local" value="html/calibration_report.htm">
+			</OBJECT>
+			<A HREF="html/calibration_report.htm">Calibration Report</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Calibration Report - Correlation Plot">
+			<param name="Local" value="html/1owff_.htm">
+			</OBJECT>
+			<A HREF="html/1owff_.htm">Calibration Report - Correlation Plot</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Calibration Report - Mean Comparisons">
+			<param name="Local" value="html/1grxv.p.htm">
+			</OBJECT>
+			<A HREF="html/1grxv.p.htm">Calibration Report - Mean Comparisons</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Calibration Report - Statistics">
+			<param name="Local" value="html/7wy1o4.htm">
+			</OBJECT>
+			<A HREF="html/7wy1o4.htm">Calibration Report - Statistics</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Complete Mixing">
+			<param name="Local" value="html/complete_mixing.htm">
+			</OBJECT>
+			<A HREF="html/complete_mixing.htm">Complete Mixing</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Constant Energy Pump">
+			<param name="Local" value="html/constant_energy_pump.htm">
+			</OBJECT>
+			<A HREF="html/constant_energy_pump.htm">Constant Energy Pump</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Contents">
+			<param name="Local" value="html/contents.htm">
+			</OBJECT>
+			<A HREF="html/contents.htm">Contents</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Contour Options Dialog Box">
+			<param name="Local" value="html/contour_options_dialog_box.htm">
+			</OBJECT>
+			<A HREF="html/contour_options_dialog_box.htm">Contour Options Dialog Box</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Controls">
+			<param name="Local" value="html/controls.htm">
+			</OBJECT>
+			<A HREF="html/controls.htm">Controls</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Controls Editor">
+			<param name="Local" value="html/controls_editor.htm">
+			</OBJECT>
+			<A HREF="html/controls_editor.htm">Controls Editor</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Copy Dialog">
+			<param name="Local" value="html/copy_dialog.htm">
+			</OBJECT>
+			<A HREF="html/copy_dialog.htm">Copy Dialog</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Creating a Calibration Report">
+			<param name="Local" value="html/creating_a_calibration_report.htm">
+			</OBJECT>
+			<A HREF="html/creating_a_calibration_report.htm">Creating a Calibration Report</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Creating a Graph">
+			<param name="Local" value="html/creating_a_graph.htm">
+			</OBJECT>
+			<A HREF="html/creating_a_graph.htm">Creating a Graph</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Creating a Table">
+			<param name="Local" value="html/creating_a_table.htm">
+			</OBJECT>
+			<A HREF="html/creating_a_table.htm">Creating a Table</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Curve Editor">
+			<param name="Local" value="html/curve_editor.htm">
+			</OBJECT>
+			<A HREF="html/curve_editor.htm">Curve Editor</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Curves">
+			<param name="Local" value="html/curves.htm">
+			</OBJECT>
+			<A HREF="html/curves.htm">Curves</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Customizing a Graph">
+			<param name="Local" value="html/customizing_a_graph.htm">
+			</OBJECT>
+			<A HREF="html/customizing_a_graph.htm">Customizing a Graph</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Demand Editor">
+			<param name="Local" value="html/demand_editor.htm">
+			</OBJECT>
+			<A HREF="html/demand_editor.htm">Demand Editor</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Displaying a Legend">
+			<param name="Local" value="html/displaying_a_legend.htm">
+			</OBJECT>
+			<A HREF="html/displaying_a_legend.htm">Displaying a Legend</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Edit Menu">
+			<param name="Local" value="html/edit_menu.htm">
+			</OBJECT>
+			<A HREF="html/edit_menu.htm">Edit Menu</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Editing a Curve">
+			<param name="Local" value="html/editing_a_curve.htm">
+			</OBJECT>
+			<A HREF="html/editing_a_curve.htm">Editing a Curve</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Editing a Legend">
+			<param name="Local" value="html/editing_a_legend.htm">
+			</OBJECT>
+			<A HREF="html/editing_a_legend.htm">Editing a Legend</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Editing a Time Pattern">
+			<param name="Local" value="html/editing_a_time_pattern.htm">
+			</OBJECT>
+			<A HREF="html/editing_a_time_pattern.htm">Editing a Time Pattern</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Editing Controls">
+			<param name="Local" value="html/editing_controls.htm">
+			</OBJECT>
+			<A HREF="html/editing_controls.htm">Editing Controls</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Efficiency Curve">
+			<param name="Local" value="html/efficiency_curve.htm">
+			</OBJECT>
+			<A HREF="html/efficiency_curve.htm">Efficiency Curve</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Emitters">
+			<param name="Local" value="html/emitters.htm">
+			</OBJECT>
+			<A HREF="html/emitters.htm">Emitters</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Energy Report">
+			<param name="Local" value="html/energy_report.htm">
+			</OBJECT>
+			<A HREF="html/energy_report.htm">Energy Report</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="FIFO Plug Flow">
+			<param name="Local" value="html/fifo_plug_flow.htm">
+			</OBJECT>
+			<A HREF="html/fifo_plug_flow.htm">FIFO Plug Flow</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="File Menu">
+			<param name="Local" value="html/file_menu.htm">
+			</OBJECT>
+			<A HREF="html/file_menu.htm">File Menu</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Flow Control Valve">
+			<param name="Local" value="html/flow_control_valve.htm">
+			</OBJECT>
+			<A HREF="html/flow_control_valve.htm">Flow Control Valve</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Full Report">
+			<param name="Local" value="html/full_report.htm">
+			</OBJECT>
+			<A HREF="html/full_report.htm">Full Report</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="General Purpose Valve">
+			<param name="Local" value="html/general_purpose_valve.htm">
+			</OBJECT>
+			<A HREF="html/general_purpose_valve.htm">General Purpose Valve</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Group Edit Dialog Box">
+			<param name="Local" value="html/group_edit_dialog_box.htm">
+			</OBJECT>
+			<A HREF="html/group_edit_dialog_box.htm">Group Edit Dialog Box</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Head Loss Curve">
+			<param name="Local" value="html/head_loss_curve.htm">
+			</OBJECT>
+			<A HREF="html/head_loss_curve.htm">Head Loss Curve</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Help Menu">
+			<param name="Local" value="html/help_menu.htm">
+			</OBJECT>
+			<A HREF="html/help_menu.htm">Help Menu</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Junction Properties">
+			<param name="Local" value="html/junction_properties.htm">
+			</OBJECT>
+			<A HREF="html/junction_properties.htm">Junction Properties</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Junctions">
+			<param name="Local" value="html/junctions.htm">
+			</OBJECT>
+			<A HREF="html/junctions.htm">Junctions</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Kinetic Models - First-Order Saturation Growth">
+			<param name="Local" value="html/1h9z4cn.htm">
+			</OBJECT>
+			<A HREF="html/1h9z4cn.htm">Kinetic Models - First-Order Saturation Growth</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Kinetic Models - Michaelis - Menton Kinetics">
+			<param name="Local" value="html/80.dwc.htm">
+			</OBJECT>
+			<A HREF="html/80.dwc.htm">Kinetic Models - Michaelis - Menton Kinetics</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Kinetic Models - Simple First-Order Decay">
+			<param name="Local" value="html/dw.tib.htm">
+			</OBJECT>
+			<A HREF="html/dw.tib.htm">Kinetic Models - Simple First-Order Decay</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Kinetic Models - Two-Component, Second-Order Decay">
+			<param name="Local" value="html/1jn.gyf.htm">
+			</OBJECT>
+			<A HREF="html/1jn.gyf.htm">Kinetic Models - Two-Component, Second-Order Decay</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Legend Editor">
+			<param name="Local" value="html/legend_editor.htm">
+			</OBJECT>
+			<A HREF="html/legend_editor.htm">Legend Editor</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="LIFO Plug Flow">
+			<param name="Local" value="html/lifo_plug_flow.htm">
+			</OBJECT>
+			<A HREF="html/lifo_plug_flow.htm">LIFO Plug Flow</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Minor Losses">
+			<param name="Local" value="html/minor_losses.htm">
+			</OBJECT>
+			<A HREF="html/minor_losses.htm">Minor Losses</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Modeling Water Age">
+			<param name="Local" value="html/modeling_water_age.htm">
+			</OBJECT>
+			<A HREF="html/modeling_water_age.htm">Modeling Water Age</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Modifying a Table">
+			<param name="Local" value="html/modifying_a_table.htm">
+			</OBJECT>
+			<A HREF="html/modifying_a_table.htm">Modifying a Table</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Moving a Legend">
+			<param name="Local" value="html/moving_a_legend.htm">
+			</OBJECT>
+			<A HREF="html/moving_a_legend.htm">Moving a Legend</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Multi-Point Pump Curve">
+			<param name="Local" value="html/zsgglb.htm">
+			</OBJECT>
+			<A HREF="html/zsgglb.htm">Multi-Point Pump Curve</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Parcel Tracking Algorithm">
+			<param name="Local" value="html/parcel_tracking_algorithm.htm">
+			</OBJECT>
+			<A HREF="html/parcel_tracking_algorithm.htm">Parcel Tracking Algorithm</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Pattern Editor">
+			<param name="Local" value="html/pattern_editor.htm">
+			</OBJECT>
+			<A HREF="html/pattern_editor.htm">Pattern Editor</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Pipe Properties">
+			<param name="Local" value="html/pipe_properties.htm">
+			</OBJECT>
+			<A HREF="html/pipe_properties.htm">Pipe Properties</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Pipe Wall Reaction Rates">
+			<param name="Local" value="html/pipe_wall_reaction_rates.htm">
+			</OBJECT>
+			<A HREF="html/pipe_wall_reaction_rates.htm">Pipe Wall Reaction Rates</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Pipes">
+			<param name="Local" value="html/pipes.htm">
+			</OBJECT>
+			<A HREF="html/pipes.htm">Pipes</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Pressure Breaker Valve">
+			<param name="Local" value="html/pressure_breaker_valve.htm">
+			</OBJECT>
+			<A HREF="html/pressure_breaker_valve.htm">Pressure Breaker Valve</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Pressure Reducing Valve">
+			<param name="Local" value="html/pressure_reducing_valve.htm">
+			</OBJECT>
+			<A HREF="html/pressure_reducing_valve.htm">Pressure Reducing Valve</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Program Preferences - Formats">
+			<param name="Local" value="html/108v6x3.htm">
+			</OBJECT>
+			<A HREF="html/108v6x3.htm">Program Preferences - Formats</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Program Preferences - General">
+			<param name="Local" value="html/km6ha7.htm">
+			</OBJECT>
+			<A HREF="html/km6ha7.htm">Program Preferences - General</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Project Defaults - Hydraulics">
+			<param name="Local" value="html/6q79.h4.htm">
+			</OBJECT>
+			<A HREF="html/6q79.h4.htm">Project Defaults - Hydraulics</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Project Defaults - ID Labels">
+			<param name="Local" value="html/ugseke.htm">
+			</OBJECT>
+			<A HREF="html/ugseke.htm">Project Defaults - ID Labels</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Project Defaults - Properties">
+			<param name="Local" value="html/y_k75k.htm">
+			</OBJECT>
+			<A HREF="html/y_k75k.htm">Project Defaults - Properties</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Project Menu">
+			<param name="Local" value="html/project_menu.htm">
+			</OBJECT>
+			<A HREF="html/project_menu.htm">Project Menu</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Pump Curve">
+			<param name="Local" value="html/pump_curve.htm">
+			</OBJECT>
+			<A HREF="html/pump_curve.htm">Pump Curve</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Pump Problems">
+			<param name="Local" value="html/pump_problems.htm">
+			</OBJECT>
+			<A HREF="html/pump_problems.htm">Pump Problems</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Pump Properties">
+			<param name="Local" value="html/pump_properties.htm">
+			</OBJECT>
+			<A HREF="html/pump_properties.htm">Pump Properties</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Pumps">
+			<param name="Local" value="html/pumps.htm">
+			</OBJECT>
+			<A HREF="html/pumps.htm">Pumps</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Reaction Report">
+			<param name="Local" value="html/reaction_report.htm">
+			</OBJECT>
+			<A HREF="html/reaction_report.htm">Reaction Report</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Reference">
+			<param name="Local" value="html/reference.htm">
+			</OBJECT>
+			<A HREF="html/reference.htm">Reference</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Report Menu">
+			<param name="Local" value="html/report_menu.htm">
+			</OBJECT>
+			<A HREF="html/report_menu.htm">Report Menu</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Reservoir Properties">
+			<param name="Local" value="html/reservoir_properties.htm">
+			</OBJECT>
+			<A HREF="html/reservoir_properties.htm">Reservoir Properties</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Reservoirs">
+			<param name="Local" value="html/reservoirs.htm">
+			</OBJECT>
+			<A HREF="html/reservoirs.htm">Reservoirs</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Reversing a Link">
+			<param name="Local" value="html/reversing_a_link.htm">
+			</OBJECT>
+			<A HREF="html/reversing_a_link.htm">Reversing a Link</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Roughness Coefficient">
+			<param name="Local" value="html/roughness_coefficient.htm">
+			</OBJECT>
+			<A HREF="html/roughness_coefficient.htm">Roughness Coefficient</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Rule Action Clauses">
+			<param name="Local" value="html/rule_action_clauses.htm">
+			</OBJECT>
+			<A HREF="html/rule_action_clauses.htm">Rule Action Clauses</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Rule Condition Clauses">
+			<param name="Local" value="html/rule_condition_clauses.htm">
+			</OBJECT>
+			<A HREF="html/rule_condition_clauses.htm">Rule Condition Clauses</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Rule Evaluation">
+			<param name="Local" value="html/rule_evaluation.htm">
+			</OBJECT>
+			<A HREF="html/rule_evaluation.htm">Rule Evaluation</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Rule Examples">
+			<param name="Local" value="html/rule_examples.htm">
+			</OBJECT>
+			<A HREF="html/rule_examples.htm">Rule Examples</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Rule Format">
+			<param name="Local" value="html/rule_format.htm">
+			</OBJECT>
+			<A HREF="html/rule_format.htm">Rule Format</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Rule-Based Controls">
+			<param name="Local" value="html/1kwd8.p.htm">
+			</OBJECT>
+			<A HREF="html/1kwd8.p.htm">Rule-Based Controls</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Selecting Items to Graph">
+			<param name="Local" value="html/selecting_items_to_graph.htm">
+			</OBJECT>
+			<A HREF="html/selecting_items_to_graph.htm">Selecting Items to Graph</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Single-Point Pump Curve">
+			<param name="Local" value="html/single_point_pump_curve.htm">
+			</OBJECT>
+			<A HREF="html/single_point_pump_curve.htm">Single-Point Pump Curve</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Source Quality Editor">
+			<param name="Local" value="html/source_quality_editor.htm">
+			</OBJECT>
+			<A HREF="html/source_quality_editor.htm">Source Quality Editor</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Source Tracing">
+			<param name="Local" value="html/source_tracing.htm">
+			</OBJECT>
+			<A HREF="html/source_tracing.htm">Source Tracing</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Standard Toolbar">
+			<param name="Local" value="html/standard_toolbar.htm">
+			</OBJECT>
+			<A HREF="html/standard_toolbar.htm">Standard Toolbar</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Status Report">
+			<param name="Local" value="html/status_report.htm">
+			</OBJECT>
+			<A HREF="html/status_report.htm">Status Report</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Submitting a Map Query">
+			<param name="Local" value="html/submitting_a_map_query.htm">
+			</OBJECT>
+			<A HREF="html/submitting_a_map_query.htm">Submitting a Map Query</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="System Unbalanced">
+			<param name="Local" value="html/system_unbalanced.htm">
+			</OBJECT>
+			<A HREF="html/system_unbalanced.htm">System Unbalanced</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Table Options - Columns">
+			<param name="Local" value="html/81dy3p.htm">
+			</OBJECT>
+			<A HREF="html/81dy3p.htm">Table Options - Columns</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Table Options - Filters">
+			<param name="Local" value="html/321cq7p.htm">
+			</OBJECT>
+			<A HREF="html/321cq7p.htm">Table Options - Filters</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Table Options - Type">
+			<param name="Local" value="html/6fk041.htm">
+			</OBJECT>
+			<A HREF="html/6fk041.htm">Table Options - Type</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Table Options Dialog Box">
+			<param name="Local" value="html/table_options_dialog_box.htm">
+			</OBJECT>
+			<A HREF="html/table_options_dialog_box.htm">Table Options Dialog Box</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Tank Mixing Models">
+			<param name="Local" value="html/tank_mixing_models.htm">
+			</OBJECT>
+			<A HREF="html/tank_mixing_models.htm">Tank Mixing Models</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Tank Properties">
+			<param name="Local" value="html/tank_properties.htm">
+			</OBJECT>
+			<A HREF="html/tank_properties.htm">Tank Properties</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Tanks">
+			<param name="Local" value="html/tanks.htm">
+			</OBJECT>
+			<A HREF="html/tanks.htm">Tanks</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Three-Point Pump Curve">
+			<param name="Local" value="html/three_point_pump_curve.htm">
+			</OBJECT>
+			<A HREF="html/three_point_pump_curve.htm">Three-Point Pump Curve</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Throttle Control Valve">
+			<param name="Local" value="html/throttle_control_valve.htm">
+			</OBJECT>
+			<A HREF="html/throttle_control_valve.htm">Throttle Control Valve</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Time Patterns">
+			<param name="Local" value="html/time_patterns.htm">
+			</OBJECT>
+			<A HREF="html/time_patterns.htm">Time Patterns</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Two-Compartment Mixing">
+			<param name="Local" value="html/two_compartment_mixing.htm">
+			</OBJECT>
+			<A HREF="html/two_compartment_mixing.htm">Two-Compartment Mixing</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Types of Graphs">
+			<param name="Local" value="html/types_of_graphs.htm">
+			</OBJECT>
+			<A HREF="html/types_of_graphs.htm">Types of Graphs</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Valve Properties">
+			<param name="Local" value="html/2a3k34n.htm">
+			</OBJECT>
+			<A HREF="html/2a3k34n.htm">Valve Properties</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Valves">
+			<param name="Local" value="html/valves.htm">
+			</OBJECT>
+			<A HREF="html/valves.htm">Valves</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="View Menu">
+			<param name="Local" value="html/view_menu.htm">
+			</OBJECT>
+			<A HREF="html/view_menu.htm">View Menu</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Viewing a Calibration Report">
+			<param name="Local" value="html/viewing_a_calibration_report.htm">
+			</OBJECT>
+			<A HREF="html/viewing_a_calibration_report.htm">Viewing a Calibration Report</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Volume Curve">
+			<param name="Local" value="html/volume_curve.htm">
+			</OBJECT>
+			<A HREF="html/volume_curve.htm">Volume Curve</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Wall Reaction - Pipe Roughness Correlation">
+			<param name="Local" value="html/2ovdbva.htm">
+			</OBJECT>
+			<A HREF="html/2ovdbva.htm">Wall Reaction - Pipe Roughness Correlation</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Water Age">
+			<param name="Local" value="html/water_age.htm">
+			</OBJECT>
+			<A HREF="html/water_age.htm">Water Age</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Water Quality Reactions">
+			<param name="Local" value="html/water_quality_reactions.htm">
+			</OBJECT>
+			<A HREF="html/water_quality_reactions.htm">Water Quality Reactions</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="Water Quality Sources">
+			<param name="Local" value="html/water_quality_sources.htm">
+			</OBJECT>
+			<A HREF="html/water_quality_sources.htm">Water Quality Sources</A><BR>
+		<LI><OBJECT type="text/sitemap">
+			<param name="Name" value="What's New">
+			<param name="Local" value="html/what'snew.htm">
+			</OBJECT>
+			<A HREF="html/what'snew.htm">What's New</A><BR>
+	</UL>
+</UL>
+</HTML>

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Bulk Flow Reaction Rates</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Bulk Reaction Rates">
+	<PARAM NAME="Keyword" VALUE="Water Quality Reactions">
+	<PARAM NAME="Keyword" VALUE="Water Quality Reactions,Bulk Flow Reactions">
+</OBJECT>
+
+<P><A NAME="bulk_flow_reaction_rates"></A></P>
+
+<H2>Bulk Flow Reaction Rates</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P>Bulk flow reactions are reactions that occur in the main flow stream of a pipe or in a storage tank, unaffected by any processes that might involve the pipe wall. EPANET models these reactions using n-th order kinetics, where the instantaneous rate of reaction (R in mass/volume/time) is assumed to be concentration-dependent according to</P>
+
+<P></P>
+
+<P><IMG SRC="../images/bm40.gif" ALT="" BORDER=0></P>
+
+<P></P>
+
+<P>where <I>Kb</I> = a bulk rate coefficient, <I>C</I> = reactant concentration (mass/volume), and <I>n</I> = a reaction order. <I>Kb</I> has units of concentration raised to the (1-n) power divided by time. It is positive for growth reactions and negative for decay reactions</P>
+
+<P></P>
+
+<P>EPANET can also consider reactions where a limiting concentration exists on the ultimate growth or loss of the substance. In this case the rate expression for a growth reaction becomes</P>
+
+<P></P>
+
+<P><IMG SRC="../images/bm41.gif" ALT="" BORDER=0></P>
+
+<P></P>
+
+<P>where <I>CL</I> = the limiting concentration. (For decay reactions (<I>CL - C</I>) is replaced by (<I>C - CL</I>).)  </P>
+
+<P></P>
+
+<P>Thus there are three parameters (<I>Kb, CL</I>, and <I>n</I>) that are used to characterize bulk reaction rates. General values can be selected for these parameters that lead to several well-known kinetic models. These include:</P>
+
+<P>· <A HREF="dw.tib.htm">Simple First-Order Decay</A> (<I>Kb &lt; 0, CL = 0, n = 1</I>)</P>
+
+<P>·<A HREF="1h9z4cn.htm">First-Order Saturation Growth</A> (<I>Kb &gt; 0, CL &gt; 0, n = 1</I>)</P>
+
+<P>·<A HREF="1jn.gyf.htm">Two-Component, Second-Order Decay</A> (<I>Kb &lt; 0, CL </I>¹<I> 0, n = 2</I>)</P>
+
+<P>·<A HREF="80.dwc.htm">Michaelis-Menton Kinetics</A> (<I>Kb </I>¹<I> 0</I>, <I>CL &gt; 0, n &lt; 0</I>) </P>
+
+<P></P>
+
+</BODY>
+</HTML>

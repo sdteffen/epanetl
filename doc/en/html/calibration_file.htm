@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Calibration File</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Calibration Report">
+	<PARAM NAME="Keyword" VALUE="Calibration Report,Calibration File">
+	<PARAM NAME="Keyword" VALUE="Files">
+	<PARAM NAME="Keyword" VALUE="Files,Calibration File">
+</OBJECT>
+
+<P><A NAME="calibration_file"></A></P>
+
+<H2>Calibration File</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P>A <B>Calibration File</B> is a text file containing measured data for a particular quantity taken over a particular period of time within a distribution system. The file provides observed data that can be compared to the results of a network simulation. Separate files should be created for different parameters (e.g., pressure, fluoride, chlorine, flow, etc.) and different sampling studies. </P>
+
+<P></P>
+
+<P>Each line of the file contains the following items:</P>
+
+<P></P>
+
+<P></P>
+
+<TABLE cols=2 width=380>
+
+<TR VALIGN="top">
+<TD width=24%><B>Item</B></TD>
+<TD width=76%><B>Description</B></TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=24%>Location ID</TD>
+<TD width=76%>ID label (as used in the network model) of the location where the measurement was made</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=24%>Time</TD>
+<TD width=76%>Time (in hours) when the measurement was made</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=24%>Value</TD>
+<TD width=76%>Result of the measurement</TD>
+</TR>
+</TABLE><BR>
+
+<P></P>
+
+<P></P>
+
+<P>The measurement time is with respect to time zero of the simulation to which the Calibration File will be applied. It can entered as either a decimal number (e.g., 27.5) or in hours:minutes format (e.g., 27:30). For data taken to be used in a single period analysis all time values can be 0.</P>
+
+<P>Comments can be added to the file by placing a semicolon (;) before them.</P>
+
+<P>For a series of measurements made at the same location the Location ID does not have to be repeated as shown below:</P>
+
+<P></P>
+
+<P>;Fluoride Tracer Measurements</P>
+
+<P>;Location    Time    Value</P>
+
+<P>;--------------------------</P>
+
+<P>N1         0       0.5</P>
+
+<P>6.4     1.2</P>
+
+<P>12.7     0.9</P>
+
+<P>N2         0.5     0.72</P>
+
+<P>5.6     0.77</P>
+
+</BODY>
+</HTML>

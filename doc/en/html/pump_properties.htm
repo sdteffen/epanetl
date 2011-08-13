@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Pump Properties</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Pumps">
+	<PARAM NAME="Keyword" VALUE="Pumps,Pump Properties">
+</OBJECT>
+
+<P><A NAME="pump_properties"></A></P>
+
+<H2>Pump Properties</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P><B>Pump ID</B></P>
+
+<P>A unique label used to identify the pump. It can consist of a combination of up to 15 numerals or characters. It cannot be the same as the ID for any other link. This is a required property.</P>
+
+<P></P>
+
+<P><B><U>Start Node</U></B></P>
+
+<P>The ID of the node on the suction side of the pump. This is a required property.</P>
+
+<P></P>
+
+<P><B><U>End Node</U></B></P>
+
+<P>The ID of the node on the discharge side of the pump. This is a required property.</P>
+
+<P></P>
+
+<P><B><U>Description</U></B></P>
+
+<P>An optional text string that describes other significant information about the pump.</P>
+
+<P></P>
+
+<P><B><U>Tag</U></B></P>
+
+<P>An optional text string (with no spaces) used to assign the pump to a category, perhaps based on age, size or location.</P>
+
+<P></P>
+
+<P><B><U>Pump Curve</U></B></P>
+
+<P>The ID label of the <A HREF="pump_curve.htm">pump curve</A> used to describe the relationship between the head delivered by the pump and the flow through the pump. Leave blank if the pump will be a constant energy pump (see below).</P>
+
+<P></P>
+
+<P><B><U>Power</U></B></P>
+
+<P>The power supplied by the pump in horsepower (kw). Assumes that the pump supplies the same amount of energy no matter what the flow is. Leave blank if a pump curve will be used instead. Use when pump curve information is not available. </P>
+
+<P></P>
+
+<P><B><U>Speed</U></B></P>
+
+<P>The relative speed setting of the pump (unitless). For example, a speed setting of 1.2 implies that the rotational speed of the pump is 20% higher than the normal setting. </P>
+
+<P></P>
+
+<P><B><U>Pattern</U></B></P>
+
+<P>The ID label of a <A HREF="time_patterns.htm">time pattern</A> used to control the pump's operation. The multipliers of the pattern are equivalent to speed settings. A multiplier of zero implies that the pump will be shut off during the corresponding time period. Leave blank if not applicable.</P>
+
+<P></P>
+
+<P><B><U>Initial Status</U></B></P>
+
+<P></P>
+
+<P>State of the pump (open or closed) at the start of the simulation period.</P>
+
+<P></P>
+
+<P><B><U>Efficiency Curve</U></B></P>
+
+<P>The ID label of the curve that represents the pump's wire-to-water efficiency (in percent) as a function of flow rate. This information is used only to compute energy usage. Leave blank if not applicable or if the global pump efficiency supplied with the project's <A HREF="1n3ozj5.htm">Energy Options</A> will be used.</P>
+
+<P></P>
+
+<P><B><U>Energy Price</U></B></P>
+
+<P>The average or nominal price of energy in monetary units per kw-hr. Used only for computing the cost of energy usage. Leave blank if not applicable or if the global value supplied with the project's <A HREF="1n3ozj5.htm">Energy Options</A> will be used.</P>
+
+<P></P>
+
+<P></P>
+
+<P><B><U>Price Pattern</U></B></P>
+
+<P>The ID label of the time pattern used to describe the variation in energy price throughout the day. Each multiplier in the pattern is applied to the pump's Energy Price to determine a time-of-day pricing for the corresponding period. Leave blank if not applicable or if the global pricing pattern specified in the project's <A HREF="1n3ozj5.htm">Energy Options</A> will be used.</P>
+
+</BODY>
+</HTML>

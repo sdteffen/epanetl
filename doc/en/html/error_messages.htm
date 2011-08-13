@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Error Messages</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Error Messages">
+</OBJECT>
+
+<P><A NAME="error_messages"></A></P>
+
+<H2>Error Messages</H2>
+
+<P><B></B></P>
+
+<P><B>ID</B>           <B>Explanation</B></P>
+
+<TABLE cols=2 width=450>
+
+<TR VALIGN="top">
+<TD width=12%></TD>
+<TD width=88%>&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>101</TD>
+<TD width=88%>  An analysis was terminated due to insufficient memory available.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>110</TD>
+<TD width=88%>  An analysis was terminated because the network hydraulic equations could not be solved. Check for portions of the network not having any physical links back to a tank or reservoir or for unreasonable values for network input data.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>200</TD>
+<TD width=88%>O ne or more errors were detected in the input data (see 200-series error messages below).</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>201</TD>
+<TD width=88%>A syntax error was found in a line of the input file created from your network data.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>202</TD>
+<TD width=88%>An illegal numeric value was assigned to a property.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>203</TD>
+<TD width=88%>An object referred to undefined node.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>204</TD>
+<TD width=88%>An object referred to an undefined link.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>205</TD>
+<TD width=88%>An object referred to an undefined time pattern.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>206</TD>
+<TD width=88%>An object referred to an undefined curve.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>207</TD>
+<TD width=88%>An attempt was made to control a check valve. Once a pipe is assigned a Check Valve status, its status cannot be changed by either simple or rule-based controls.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>208</TD>
+<TD width=88%>Reference was made to an undefined node.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>209</TD>
+<TD width=88%>An illegal value was assigned to a node property.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>210</TD>
+<TD width=88%>Reference was made to an undefined link.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>211</TD>
+<TD width=88%>An illegal value was assigned to a link property.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>212</TD>
+<TD width=88%>A source tracing analysis referred to an undefined trace node.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>213</TD>
+<TD width=88%>An analysis option had an illegal value (for example, a negative time step value).</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>214</TD>
+<TD width=88%>Too many characters were in a line read from an input file. Lines in an input file are limited to 255 characters.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>215</TD>
+<TD width=88%>Two or more nodes or links share the same ID label.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>216</TD>
+<TD width=88%>Energy data were supplied for an undefined pump.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>217</TD>
+<TD width=88%>Invalid energy data were supplied for a pump.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>219</TD>
+<TD width=88%>A valve was illegally connected to a tank. A PRV, PSV, or FCV cannot be directly connected to a reservoir or tank. Use a length of pipe to separate the two.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>220</TD>
+<TD width=88%>A valve was illegally connected to another valve. PRVs cannot share the same downstream node or be linked in series. PSVs cannot share the same upstream node or be linked in series, and a PSV cannot be directly connected to the downstream node of a PRV.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>221</TD>
+<TD width=88%>A rule-based control contains a misplaced clause.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>223</TD>
+<TD width=88%>There were not enough nodes in the network to analyze. A valid network must contain at least one tank/reservoir and one junction node.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>224</TD>
+<TD width=88%>There was not at least one tank or reservoir in the network.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>225</TD>
+<TD width=88%>Invalid lower/upper levels were specified for a tank (e.g., the lower level was higher than the upper level).</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>226</TD>
+<TD width=88%>No pump curve or power rating was supplied for a pump. A pump must either be assigned a curve ID in its Pump Curve property or a power rating in its Power property. If both properties are assigned then the Pump Curve is used.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>227</TD>
+<TD width=88%>A pump had an invalid pump curve. A valid pump curve must have decreasing head with increasing flow.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>230</TD>
+<TD width=88%>A curve had non-increasing X-values.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>233</TD>
+<TD width=88%>A node was not connected to any links.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>302</TD>
+<TD width=88%>The temporary input file could not be opened. Make sure that the EPANET Temporary Folder selected has write privileges assigned to it (see <A HREF="km6ha7.htm">Program Preferences</A>).</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>303</TD>
+<TD width=88%>The status report file could not be opened. See Error 302.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>304</TD>
+<TD width=88%>The binary output file could not be opened. See Error 302.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>308</TD>
+<TD width=88%>Intermediate results could not be saved to a binary file. This can occur if the disk becomes full.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=12%>309</TD>
+<TD width=88%>Results could not be written to the report file. This can occur if the disk becomes full.</TD>
+</TR>
+</TABLE><BR>
+
+</BODY>
+</HTML>

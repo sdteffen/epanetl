@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>System Unbalanced</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="System Unbalanced">
+</OBJECT>
+
+<P><A NAME="system_unbalanced"></A></P>
+
+<P><B><U>System Unbalanced</U></B></P>
+
+<P>A System Unbalanced condition can occur when EPANET cannot converge to a hydraulic solution in some time period within its allowed maximum number of trials. This situation can occur when valves, pumps, or pipelines keep switching their status from one trial to the next as the search for a hydraulic solution proceeds. For example, the pressure limits that control the status of a pump may be set too close together. Or a pump's head curve might be too flat causing it keep shutting on and off.</P>
+
+<P></P>
+
+<P>To eliminate the unbalanced condition one can try to increase the allowed maximum number of trials and change the CHECKFREQ and MAXCHECK settings. These parameters are set with the project's <A HREF="xk_b0r.htm">Hydraulic Options</A>. If the unbalanced condition persists, then another hydraulic option, labeled <B>If Unbalanced</B>, offers two ways to handle it. One is to terminate the entire analysis once the condition is encountered. The other is to continue seeking a hydraulic solution for another 10 trials with the status of all links frozen to their current values. If convergence is achieved then a warning message is issued about the system possibly being unstable. If convergence is not achieved then a System Unbalanced warning message is issued. In either case, the analysis will proceed to the next time period.</P>
+
+<P></P>
+
+<P>If an analysis in a given time period ends with the system unbalanced then the user should recognize that the hydraulic results produced for this time period are inaccurate. Depending on circumstances, such as errors in flows into or out of storage tanks, this might affect the accuracy of results in all future periods as well.</P>
+
+</BODY>
+</HTML>

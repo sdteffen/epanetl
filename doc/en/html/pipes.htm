@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Pipes</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Pipes">
+	<PARAM NAME="Keyword" VALUE="Pipes,Description">
+</OBJECT>
+
+<P><A NAME="pipes"></A></P>
+
+<H2>Pipes</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P>Pipes convey water from one point in the network to another. EPANET assumes that all pipes are full at all times. Flow direction is from the end at higher hydraulic head (internal energy per weight of water) to that at lower head. The principal hydraulic input parameters for pipes are:</P>
+
+<P>·diameter</P>
+
+<P>·length</P>
+
+<P>·roughness coefficient</P>
+
+<P>·initial status (open, closed, or contains a check valve).</P>
+
+<P></P>
+
+<P>The status parameter allows pipes to implicitly contain shutoff valves and check valves (which allow flow in only one direction).</P>
+
+<P></P>
+
+<P>The water quality inputs for pipes consist of</P>
+
+<P>·bulk reaction coefficient</P>
+
+<P>·wall reaction coefficient.</P>
+
+<P></P>
+
+<P>Computed outputs for pipes include</P>
+
+<P>·flow rate</P>
+
+<P>·velocity</P>
+
+<P>·headloss</P>
+
+<P>·friction factor</P>
+
+<P>·reaction rate</P>
+
+<P>·water quality.</P>
+
+<P></P>
+
+<P>The hydraulic head lost by water flowing in a pipe due to friction with the pipe walls can be computed using three different formulas:</P>
+
+<P>·<A HREF="2222_uh.htm">Hazen-Williams Formula</A></P>
+
+<P>·<A HREF="12ngy5q.htm">Darcy-Weisbach Formula</A></P>
+
+<P>·<A HREF="chezy_manning_formula.htm">Chezy-Manning Formula</A></P>
+
+<P></P>
+
+<P><A HREF="minor_losses.htm">Minor losses</A> caused by bends and fittings can also be accounted for by assigning the pipe a minor loss coefficient.</P>
+
+<P></P>
+
+<P>Pipes can be set open or closed at preset times, when tank levels fall below or above certain set-points, or when nodal pressures fall below or above certain set-points by the use of <A HREF="controls.htm">Controls</A>.</P>
+
+<P></P>
+
+<P><B>See Also:</B></P>
+
+<P></P>
+
+<P><A HREF="pipe_properties.htm">Pipe Properties</A></P>
+
+</BODY>
+</HTML>

@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Analysis Options - Quality</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Analysis Options">
+	<PARAM NAME="Keyword" VALUE="Analysis Options,Quality Options">
+</OBJECT>
+
+<P><A NAME="_lzz3c"></A></P>
+
+<H2>Analysis Options - Quality</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P><B>Quality Options</B> select the type of water quality analysis to conduct and control how the calculations are carried out. They include the following:</P>
+
+<P></P>
+
+<P><B><U>Parameter</U></B></P>
+
+<P></P>
+
+<P>Type of water quality parameter being modeled. Choices include:</P>
+
+<P>·<B>None</B> (no quality analysis),</P>
+
+<P>·<B>Chemical</B> (compute chemical concentration),</P>
+
+<P>·<B>Age</B> (compute water age),</P>
+
+<P>·<B>Trace</B> (trace flow from a specific node).</P>
+
+<P>·<B>Sediment</B> (particle settling and re-suspension)</P>
+
+<P>In lieu of <B>Chemical</B>, you can  enter the actual name of the chemical being modeled (e.g., <B>Chlorine</B>).</P>
+
+<P></P>
+
+<P><B><U>Mass Units</U></B></P>
+
+<P></P>
+
+<P>Mass units used to express concentration. Choices are <B>mg/L</B> or <B>ug/L</B>. Units for Age and Trace analyses are fixed at hours and percent, respectively.</P>
+
+<P></P>
+
+<P><B><U>Relative Diffusivity</U></B></P>
+
+<P></P>
+
+<P>Molecular diffusivity of the chemical being modeled relative to that of chlorine at 20 deg. C (0.00112 sq ft/day). Use 2 if the chemical diffuses twice as fast as chlorine, 0.5 if half as fast, etc. Only used when modeling mass transfer for pipe wall reactions. Set to zero to ignore mass transfer effects.</P>
+
+<P></P>
+
+<P><B><U>Trace Node</U></B></P>
+
+<P></P>
+
+<P>ID label of the node whose flow is being traced. Applies only to source tracing.</P>
+
+<P></P>
+
+<P><B><U>Quality Tolerance</U></B></P>
+
+<P></P>
+
+<P>Smallest change in quality that will cause a new parcel of water to be created in a pipe. A typical setting might be 0.01 for chemicals measured in mg/L as well as water age and source tracing. </P>
+
+<P></P>
+
+<P><B>Note:</B>The Quality Tolerance determines when the quality of one parcel of water is essentially the same as another parcel. For chemical analysis this might be the detection limit of the procedure used to measure the chemical, adjusted by a suitable factor of safety. Using too large a value for this tolerance might affect simulation accuracy. Using too small a value will affect computational efficiency.</P>
+
+<P></P>
+
+<P></P>
+
+<P></P>
+
+</BODY>
+</HTML>

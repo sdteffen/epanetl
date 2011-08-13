@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Pipe Properties</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Pipes">
+	<PARAM NAME="Keyword" VALUE="Pipes,Properties">
+</OBJECT>
+
+<P><A NAME="pipe_properties"></A></P>
+
+<H2>Pipe Properties</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P><B>Pipe ID</B></P>
+
+<P>A unique label used to identify the pipe. It can consist of a combination of up to 15 numerals or characters. It cannot be the same as the ID for any other link. This is a required property.</P>
+
+<P></P>
+
+<P><B><U>Start Node</U></B></P>
+
+<P>The ID of the node where the pipe begins. This is a required property.</P>
+
+<P></P>
+
+<P><B><U>End Node</U></B></P>
+
+<P>The ID of the node where the pipe ends. This is a required property.</P>
+
+<P></P>
+
+<P><B><U>Description</U></B></P>
+
+<P>An optional text string that describes other significant information about the pipe.</P>
+
+<P></P>
+
+<P><B><U>Tag</U></B></P>
+
+<P>An optional text string (with no spaces)  used to assign the pipe to a category, perhaps one based on age or material.</P>
+
+<P></P>
+
+<P><B><U>Length</U></B></P>
+
+<P>The actual length of the pipe in feet (meters). This is a required property.</P>
+
+<P></P>
+
+<P><B><U>Diameter</U></B></P>
+
+<P>The pipe diameter in inches (mm). This is a required property.</P>
+
+<P></P>
+
+<P><B><U>Roughness</U></B></P>
+
+<P>The <A HREF="roughness_coefficient.htm">roughness coefficient</A> of the pipe. It is unitless for Hazen-Williams or Chezy-Manning roughness and has units of millifeet (mm) for Darcy-Weisbach roughness. This is a required property.</P>
+
+<P></P>
+
+<P><B><U>Loss Coefficient</U></B></P>
+
+<P>Unitless <A HREF="minor_losses.htm">minor loss coefficient</A> associated with bends, fittings, etc. Assumed 0 if left blank.</P>
+
+<P></P>
+
+<P><B><U>Initial Status</U></B></P>
+
+<P>Determines whether the pipe is initially open, closed, or contains a check valve. If a check valve is specified then any flow in the pipe must be from the Start node to the End node.</P>
+
+<P></P>
+
+<P><B><U>Bulk Coefficient</U></B></P>
+
+<P>The bulk reaction coefficient for the pipe. Use a positive value for growth and a negative value for decay. Time units are 1/days. Leave blank if the Global Bulk reaction coefficient will apply (see <A HREF="1.9mfor.htm">Reaction Options</A>).  See <A HREF="bulk_flow_reaction_rates.htm">Bulk Flow Reaction Rates</A>  for further description of this parameter.</P>
+
+<P></P>
+
+<P><B><U>Wall Coefficient</U></B></P>
+
+<P>The wall reaction coefficient for the pipe. Use a positive value for growth and a negative value for decay. Time units are 1/days. Leave blank if the Global Wall reaction coefficient will apply (see <A HREF="1.9mfor.htm">Reaction Options</A>). See <A HREF="pipe_wall_reaction_rates.htm">Pipe Wall Reaction Rates</A> for further description of this parameter.</P>
+
+</BODY>
+</HTML>

@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Rule Condition Clauses</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Rule-Based Controls">
+	<PARAM NAME="Keyword" VALUE="Rule-Based Controls,Condition Clauses">
+</OBJECT>
+
+<P><A NAME="rule_condition_clauses"></A></P>
+
+<H2>Rule Condition Clauses</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P>A condition clause in a <A HREF="1kwd8.p.htm">Rule-Based Control</A> takes the form of:</P>
+
+<P></P>
+
+<P><I>object id attribute relation value</I></P>
+
+<P></P>
+
+<P>where</P>
+
+<TABLE cols=3 width=355>
+
+<TR VALIGN="top">
+<TD width=27%><I>object</I></TD>
+<TD width=6%>=</TD>
+<TD width=67%>a category of network object</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%><I>id</I></TD>
+<TD width=6%>=</TD>
+<TD width=67%>the object's ID label</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%><I>attribute</I></TD>
+<TD width=6%>  =</TD>
+<TD width=67%>an attribute or property of the object</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%><I>relation</I></TD>
+<TD width=6%>  =</TD>
+<TD width=67%>a relational operator</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%><I>value</I></TD>
+<TD width=6%>=</TD>
+<TD width=67%>an attribute value </TD>
+</TR>
+</TABLE><BR>
+
+<P></P>
+
+<P><I></I></P>
+
+<P>Some example conditional clauses are:</P>
+
+<P></P>
+
+<P>JUNCTION 23 PRESSURE &gt; 20</P>
+
+<P>TANK T200 FILLTIME BELOW 3.5</P>
+
+<P>LINK 44 STATUS IS OPEN</P>
+
+<P>SYSTEM DEMAND &gt;= 1500</P>
+
+<P>SYSTEM CLOCKTIME = 7:30 AM</P>
+
+<P></P>
+
+<P>The <I>Object</I> keyword can be any of the following:</P>
+
+<P></P>
+
+<P>NODELINKSYSTEM</P>
+
+<P>JUNCTIONPIPE</P>
+
+<P>RESERVOIRPUMP</P>
+
+<P>TANKVALVE</P>
+
+<P></P>
+
+<P>When SYSTEM is used in a condition no ID is supplied.</P>
+
+<P></P>
+
+<P>The following <I>attributes</I> can be used with Node-type objects:</P>
+
+<P></P>
+
+<P>DEMAND</P>
+
+<P>HEAD</P>
+
+<P>PRESSURE</P>
+
+<P></P>
+
+<P>The following <I>attributes</I> can be used with Tanks:</P>
+
+<P></P>
+
+<P>LEVEL</P>
+
+<P>FILLTIME (hours needed to fill a tank)</P>
+
+<P>DRAINTIME (hours needed to empty a tank)</P>
+
+<P></P>
+
+<P>These <I>attributes</I> can be used with Link-Type objects:</P>
+
+<P></P>
+
+<P>FLOW</P>
+
+<P>STATUS (OPEN, CLOSED, or ACTIVE)</P>
+
+<P>SETTING (Pump speed or Valve setting)</P>
+
+<P></P>
+
+<P>The SYSTEM object can use the following attributes:</P>
+
+<P></P>
+
+<P>DEMAND (total system demand)</P>
+
+<P>TIME (hours from the start of the simulation)</P>
+
+<P>CLOCKTIME (24-hour clock time with AM or PM appended)</P>
+
+<P></P>
+
+<P><I>Relation</I> operators consist of the following:</P>
+
+<P></P>
+
+<P>=IS</P>
+
+<P>&lt;&gt;NOT</P>
+
+<P>&lt;BELOW</P>
+
+<P>&gt;ABOVE</P>
+
+<P>&lt;=&gt;=</P>
+
+</BODY>
+</HTML>

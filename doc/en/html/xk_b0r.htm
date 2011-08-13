@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Analysis Options - Hydraulics</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Analysis Options">
+	<PARAM NAME="Keyword" VALUE="Analysis Options,Hydraulic Options">
+</OBJECT>
+
+<P><A NAME="xk_b0r"></A></P>
+
+<H2>Analysis Options - Hydraulics</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P><B>Hydraulics Options</B> determine how the hydraulic behavior of the pipe network should be analyzed. They include:</P>
+
+<P></P>
+
+<P><B><U>Flow Units</U></B></P>
+
+<P>Units in which nodal demands and link flow rates are expressed. Choosing liters or cubic meters causes all other units to be SI metric, otherwise US customary units apply. Use caution when changing flow units as it might affect all other data supplied to the project. (See <A HREF="us_units.htm">Units of Measurement</A>.)</P>
+
+<P></P>
+
+<P><B><U>Headloss Formula</U></B></P>
+
+<P>Formula used to compute headloss as a function of flow rate in a pipe. Choices are:</P>
+
+<P>·<A HREF="2222_uh.htm">Hazen-Williams</A></P>
+
+<P>·<A HREF="12ngy5q.htm">Darcy-Weisbach</A></P>
+
+<P>·<A HREF="chezy_manning_formula.htm">Chezy-Manning</A></P>
+
+<P></P>
+
+<P>Because each formula measures pipe roughness differently, switching formulas might require that all pipe roughness coefficients be updated.</P>
+
+<P></P>
+
+<P><B><U>Specific Gravity</U></B></P>
+
+<P></P>
+
+<P>Ratio of the density of the fluid being modeled to that of water at 4 deg. C (unitless).</P>
+
+<P></P>
+
+<P><B><U>Relative Viscosity</U></B></P>
+
+<P></P>
+
+<P>Kinematic viscosity of the fluid being modeled relative to the viscosity of water at 20 deg. C (1.0 centistokes or 0.94 sq ft/day).</P>
+
+<P></P>
+
+<P><B><U>Maximum Trials</U></B></P>
+
+<P></P>
+
+<P>Maximum number of trials used to solve the nonlinear equations that govern network hydraulics at a given point in time.</P>
+
+<P>Suggested value is 200.</P>
+
+<P></P>
+
+<P><B><U>Accuracy</U></B></P>
+
+<P></P>
+
+<P>Convergence criterion used to signal that a solution has been found to the nonlinear equations that govern network hydraulics. Trials end when the sum of all flow changes divided by the sum of all link flows is less than this number.</P>
+
+<P>Suggested value is 0.001.</P>
+
+<P></P>
+
+<P><B><U>If Unbalanced</U></B></P>
+
+<P></P>
+
+<P>Action to take if a hydraulic solution is not found within the maximum number of trials. Choices are <B>STOP</B> to stop the simulation at this point or <B>CONTINUE</B> to use another 10 trials, with no link status changes allowed, in an attempt to achieve convergence.</P>
+
+<P></P>
+
+<P><B><U>Default Pattern</U></B></P>
+
+<P></P>
+
+<P>ID label of a time pattern to be applied to demands at those junctions where no time pattern is specified. If no such time pattern exists then demands will not vary at these locations.</P>
+
+<P></P>
+
+<P><B><U>Demand Multiplier</U></B></P>
+
+<P></P>
+
+<P>Multiplier applied to all baseline demands to make total system consumption vary up or down by a fixed amount. E.g., 2.0 doubles all demands, 0.5 halves them, and 1.0 leaves them as is.</P>
+
+<P></P>
+
+<P><B><U>Emitter Exponent</U></B></P>
+
+<P></P>
+
+<P>Power to which pressure is raised when computing the flow through an <A HREF="emitters.htm">emitter</A> device. The textbook value for nozzles and sprinklers is 0.5. This may not apply to pipe leakage.</P>
+
+<P></P>
+
+<P><B><U>Status Report</U></B></P>
+
+<P></P>
+
+<P>Amount of status information to report after a simulation is made. Choices are</P>
+
+<P>·<B>NONE</B> (no status report)</P>
+
+<P>·<B>YES</B> (normal status reporting - lists all changes in link status throughout the simulation) </P>
+
+<P>·<B>FULL</B> (full reporting - normal reporting plus the convergence error from each trial of the hydraulic analysis made in each time period)</P>
+
+<P>Full status reporting is only useful for debugging purposes.</P>
+
+<P></P>
+
+<P><B><U>CHECKFREQ</U></B></P>
+
+<P>This sets the number of solution trials that pass during hydraulic balancing before the status of pumps, check valves, flow control valves and pipes connected to tanks are once again updated. The default value is 2, meaning that status checks are made every other trial. A value equal to the maximum number of trials would mean that status checks are made only after a system has converged. (Whenever a status change occurs the trials must continue since the current solution may not be balanced.) The frequency of status checks on pressure reducing and pressure sustaining valves (PRVs and PSVs) is determined by the DAMPLIMIT option (see below).</P>
+
+<P></P>
+
+<P><B><U>MAXCHECK</U></B></P>
+
+<P>This is the number of solution trials after which periodic status checks on pumps, check valves flow control valves and pipes connected to tanks are discontinued. Instead, a status check is made only after convergence is achieved. The default value is 10, meaning that after 10 trials, instead of checking status every CHECKFREQ trials, status is checked only at convergence.</P>
+
+<P></P>
+
+<P><B><U>DAMPLIMIT</U></B></P>
+
+<P>This is the accuracy value at which solution damping and status checks on PRVs and PSVs should begin. Damping limits all flow changes to 60% of what they would otherwise be as future trials unfold. The default is 0 which indicates that no damping should be used and that status checks on control valves are made at every iteration. Damping might be needed on networks that have trouble converging, in which case a limit of 0.01 is suggested.</P>
+
+<P>Below are some typical values that might be used for the status checking parameters:</P>
+
+<TABLE cols=4 width=547>
+
+<TR VALIGN="top">
+<TD width=18%><B><U>CHECKFREQ</U></B></TD>
+<TD width=18%><B><U>MAXCHECK</U></B></TD>
+<TD width=19%><B><U>DAMPLIMIT</U></B></TD>
+<TD width=45%><B><U>Remarks</U></B></TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=18%>2</TD>
+<TD width=18%>10</TD>
+<TD width=19%>0</TD>
+<TD width=45%>Frequent status checking; tends to produce solutions in the least number of iterations.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=18%>10</TD>
+<TD width=18%>100</TD>
+<TD width=19%>0.01</TD>
+<TD width=45%>Less frequent status checking; might be needed for networks that have difficulty in converging.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=18%>Max. Trials</TD>
+<TD width=18%>Max. Trials</TD>
+<TD width=19%>Convergence Accuracy</TD>
+<TD width=45%>Status checks made only after convergence is achieved; might produce convergence when other settings fail.</TD>
+</TR>
+</TABLE><BR>
+
+</BODY>
+</HTML>

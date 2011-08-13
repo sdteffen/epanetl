@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Time Patterns</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Patterns">
+	<PARAM NAME="Keyword" VALUE="Time Patterns">
+	<PARAM NAME="Keyword" VALUE="Time Patterns,Description">
+</OBJECT>
+
+<P><A NAME="time_patterns"></A></P>
+
+<H2>Time Patterns</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P>A <B>Time Pattern</B> is a collection of multipliers that can be applied to a quantity to allow it to vary over time. Water demands, reservoir heads, pump schedules, and water quality source inputs can all have time patterns associated with them.</P>
+
+<P></P>
+
+<P>The time interval used in all patterns is set with the project's <A HREF="0uqggx.htm">Time Options</A>. Within this interval a quantity remains at a constant level, equal to the product of its nominal value and the pattern's multiplier for that interval. Although all time patterns must utilize the same time interval, each can have a different number of periods. When the simulation clock exceeds the number of periods in a pattern, the pattern wraps around to its first period again.</P>
+
+<P></P>
+
+<P>As an example of how time patterns work consider a junction node with an average demand of 10 GPM. Assume that the time pattern interval has been set to 4 hours and a pattern with the following multipliers has been specified for demand at this node:</P>
+
+<P></P>
+
+<TABLE cols=1 width=385>
+
+<TR VALIGN="top">
+<TD width=100%>Period123456
+<P>Multiplier0.50.81.01.20.90.7</P>
+</TD>
+</TR>
+</TABLE><BR>
+
+<P> </P>
+
+<P>Then during the simulation the actual demand exerted at this node will be as follows:</P>
+
+<P></P>
+
+<TABLE cols=1 width=440>
+
+<TR VALIGN="top">
+<TD width=100%>Hour0-44-88-1212-1616-2020-2424-28
+<P>Demand581012975</P>
+</TD>
+</TR>
+</TABLE><BR>
+
+<P></P>
+
+<P><B>See Also:</B></P>
+
+<P></P>
+
+<P><A HREF="adding_a_time_pattern.htm">Adding a Time Pattern</A></P>
+
+<P><A HREF="editing_a_time_pattern.htm">Editing a Time Pattern</A></P>
+
+</BODY>
+</HTML>

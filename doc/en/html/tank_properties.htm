@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Tank Properties</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Tanks">
+	<PARAM NAME="Keyword" VALUE="Tanks,Properties">
+</OBJECT>
+
+<P><A NAME="tank_properties"></A></P>
+
+<H2>Tank Properties</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P><B>Tank ID</B></P>
+
+<P>A unique label used to identify the tank. It can consist of a combination of up to 15 numerals or characters. It cannot be the same as the ID for any other node. This is a required property.</P>
+
+<P></P>
+
+<P><B><U>X-Coordinate</U></B></P>
+
+<P>The horizontal location of the tank on the map, measured in the map's distance units. If left blank the tank will not appear on the network map.</P>
+
+<P></P>
+
+<P><B><U>Y-Coordinate</U></B></P>
+
+<P>The vertical location of the tank on the map, measured in the map's distance units. If left blank the tank will not appear on the network map.</P>
+
+<P></P>
+
+<P><B><U>Description</U></B></P>
+
+<P>An optional text string that describes other significant information about the tank.</P>
+
+<P></P>
+
+<P><B><U>Tag</U></B></P>
+
+<P>An optional text string (with no spaces) used to assign the tank to a category, such as a pressure zone.</P>
+
+<P></P>
+
+<P><B><U>Elevation</U></B></P>
+
+<P>The elevation above a common datum in feet (meters) of the bottom shell of the tank. This is a required property.</P>
+
+<P></P>
+
+<P><B><U>Initial Level</U></B></P>
+
+<P>The height in feet (meters) of the water surface above the bottom elevation of the tank at the start of the simulation. This is a required property.</P>
+
+<P></P>
+
+<P><B><U>Minimum Level</U></B></P>
+
+<P>The minimum height in feet (meters) of the water surface above the bottom elevation that will be maintained. The tank will not be allowed to drop below this level. This is a required property.</P>
+
+<P></P>
+
+<P><B><U>Maximum Level</U></B></P>
+
+<P>The maximum height in feet (meters) of the water surface above the bottom elevation that will be maintained. The tank will not be allowed to rise above this level. This is a required property.</P>
+
+<P></P>
+
+<P><B><U>Diameter</U></B></P>
+
+<P>The diameter of the tank in feet (meters). For cylindrical tanks this is the actual diameter. For square or rectangular tanks it can be an equivalent diameter equal to 1.128 times the square root of the cross-sectional area. For tanks whose geometry will be described by a curve (see below) it can be set to any value. This is a required property.</P>
+
+<P></P>
+
+<P><B><U>Minimum Volume</U></B></P>
+
+<P>The volume of water in the tank when it is at its minimum level, in cubic feet (cubic meters). This is an optional property, useful mainly for describing the bottom geometry of non-cylindrical tanks where a full volume versus depth curve will not be supplied (see below).</P>
+
+<P></P>
+
+<P><B><U>Volume Curve</U></B></P>
+
+<P>The ID label of a curve used to describe the relation between <A HREF="volume_curve.htm">tank volume and water level</A>. This property is useful for characterizing irregular-shaped tanks. If left blank then the tank is assumed to be cylindrical.</P>
+
+<P></P>
+
+<P><B><U>Mixing Model</U></B></P>
+
+<P>The type of water quality mixing that occurs within the tank. The choices include</P>
+
+<P>·fully mixed (<B>MIXED</B>),</P>
+
+<P>·two-compartment mixing (<B>2COMP</B>),</P>
+
+<P>·first-in-first-out plug flow <B>(FIFO</B>),</P>
+
+<P>·last-in-first-out plug flow (<B>LIFO</B>).</P>
+
+<P>See the <A HREF="tank_mixing_models.htm">Mixing Models</A> topic for more information.</P>
+
+<P></P>
+
+<P><B><U>Mixing Fraction</U></B></P>
+
+<P></P>
+
+<P>The fraction of the tank's total volume that comprises the inlet-outlet compartment of the two-compartment (<B>2COMP</B>) mixing model. Can be left blank if another type of mixing model is employed.</P>
+
+<P></P>
+
+<P><B><U>Reaction Coefficient</U></B></P>
+
+<P></P>
+
+<P>The bulk reaction coefficient for chemical reactions in the tank. Use a positive value for growth reactions and a negative value for decay. Time units are 1/days. Leave blank if the Global Bulk reaction coefficient will apply. See <A HREF="water_quality_reactions.htm">Water Quality Reactions</A> for more information.</P>
+
+<P></P>
+
+<P><B><U>Initial Quality</U></B></P>
+
+<P></P>
+
+<P>Water quality level in the tank at the start of the simulation. Can be left blank if no water quality analysis is being made or if the level is zero.</P>
+
+<P></P>
+
+<P><B><U>Source Quality</U></B></P>
+
+<P></P>
+
+<P>Click the ellipsis button to display a  <A HREF="source_quality_editor.htm">Source Quality Editor</A> in which the quality of water entering the network from the tank can be specified (regardless of what the actual quality in the tank is).</P>
+
+</BODY>
+</HTML>

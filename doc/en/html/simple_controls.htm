@@ -1,0 +1,136 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Simple Controls</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Controls">
+	<PARAM NAME="Keyword" VALUE="Controls,Simple Controls">
+	<PARAM NAME="Keyword" VALUE="Simple Controls">
+</OBJECT>
+
+<P><A NAME="simple_controls"></A></P>
+
+<H2>Simple Controls</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P><B>Simple Controls</B> change the status or setting of a link based on</P>
+
+<P>·the water level in a tank,</P>
+
+<P>·the pressure at a junction,</P>
+
+<P>·the time into the simulation,</P>
+
+<P>·or the time of day.</P>
+
+<P></P>
+
+<P>They are text statements using one of the following three formats:</P>
+
+<P></P>
+
+<TABLE cols=1 width=435>
+
+<TR VALIGN="top">
+<TD width=100%><B>LINK</B> <I>linkID</I> <I>status</I> <B>IF NODE</B> <I>nodeID</I> <B>ABOVE/BELOW</B> <I>value</I>
+<P><B>LINK</B> <I>linkID status</I> <B>AT TIME</B> <I>time</I></P>
+
+<P><B>LINK</B> <I>linkID status</I> <B>AT CLOCKTIME</B> <I>clocktime</I> <B>AM/PM</B></P>
+</TD>
+</TR>
+</TABLE><BR>
+
+<P></P>
+
+<P>where</P>
+
+<P></P>
+
+<TABLE cols=3 width=434>
+
+<TR VALIGN="top">
+<TD width=18%><I>linkID</I></TD>
+<TD width=4%>=</TD>
+<TD width=78%>link ID label</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=18%><I>status</I></TD>
+<TD width=4%>=</TD>
+<TD width=78%><B>OPEN</B> or <B>CLOSED</B>, a pump speed setting, or a control valve setting</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=18%><I>nodeID</I></TD>
+<TD width=4%>=</TD>
+<TD width=78%>node ID label</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=18%><I>value</I></TD>
+<TD width=4%>=</TD>
+<TD width=78%>pressure for a junction or water level for a tank</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=18%><I>time</I></TD>
+<TD width=4%>=</TD>
+<TD width=78%>time since the start of the simulation in decimal hours or hours:minutes</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=18%><I>clocktime</I></TD>
+<TD width=4%>=</TD>
+<TD width=78%>24-hour clock time</TD>
+</TR>
+</TABLE><BR>
+
+<P>Some examples of simple controls are:</P>
+
+<P></P>
+
+<TABLE cols=1 width=435>
+
+<TR VALIGN="top">
+<TD width=100%>LINK 12 CLOSED IF NODE 23 ABOVE 20
+<P><I>(Link 12 will be closed when the level in Tank 23 exceeds 20 ft.)</I></P>
+
+<P></P>
+
+<P>LINK 12 OPEN IF NODE 130 BELOW 30</P>
+
+<P>(<I>Link 12 will be opened if the pressure at Node 130 drops below 30 psi)</I></P>
+
+<P></P>
+
+<P>LINK PUMP02 1.5 AT TIME 16</P>
+
+<P>(<I>The relative speed of pump PUMP02 is set to 1.5 at 16 hours into the simulation)</I></P>
+
+<P></P>
+
+<P>LINK 12 CLOSED AT CLOCKTIME 10 AM LINK 12 OPEN AT CLOCKTIME 8 PM</P>
+
+<P>(<I>Link 12 is repeatedly closed at 10 am and opened at 8 pm throughout the simulation)</I></P>
+</TD>
+</TR>
+</TABLE><BR>
+
+<P></P>
+
+<P>There is no limit on the number of simple control statements that can be used.</P>
+
+<P></P>
+
+<P><B>Note:</B>Using a pair of pressure controls to open and close a link can cause the system to become unstable if the pressure settings are too close to one another. In this case using a pair of <A HREF="1kwd8.p.htm">Rule-Based controls</A> might provide more stability.</P>
+
+</BODY>
+</HTML>

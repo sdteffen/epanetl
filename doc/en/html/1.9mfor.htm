@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Analysis Options - Reactions</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Analysis Options">
+	<PARAM NAME="Keyword" VALUE="Analysis Options,Reaction Options">
+</OBJECT>
+
+<P><A NAME="1.9mfor"></A></P>
+
+<H2>Analysis Options - Reactions</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P><B>Reaction Options</B> select the type of water quality reactions that are included in the analysis.</P>
+
+<P></P>
+
+<P><B><U>Bulk Reaction Order</U></B> </P>
+
+<P></P>
+
+<P>Power to which concentration is raised when computing a bulk flow reaction rate. Use 1 for first-order reactions, 2 for second-order reactions, etc. Use any negative number for Michaelis-Menton kinetics. See <A HREF="bulk_flow_reaction_rates.htm">Bulk Flow Reaction Rates</A>.</P>
+
+<P></P>
+
+<P><B><U>Wall Reaction Order</U></B> </P>
+
+<P></P>
+
+<P>Power to which concentration is raised when computing a pipe wall reaction rate. Choices are <B>FIRST</B> (1) for first-order reactions or <B>ZERO </B>(0)<B> </B>for constant rate reactions. See <A HREF="pipe_wall_reaction_rates.htm">Pipe Wall Reaction Rates.</A></P>
+
+<P></P>
+
+<P><B><U>Global Bulk Coefficient</U></B> </P>
+
+<P></P>
+
+<P>Default bulk reaction rate coefficient (Kb) assigned to all pipes. This global coefficient can be overridden by editing this property for specific pipes. Use positive number for growth, negative number for decay, or 0 if no bulk reaction occurs. Units are concentration raised to the (1-n) power divided by days, where n is the reaction order.</P>
+
+<P></P>
+
+<P><B><U>Global Wall Coefficient</U></B> </P>
+
+<P></P>
+
+<P>Wall reaction rate coefficient (Kw) assigned to all pipes. Can be overridden by editing this property for specific pipes. Use positive number for growth, negative number for decay, or 0 if no wall reaction occurs. Units are ft/day (US) or m/day (SI) for first-order reactions and  mass/sq ft/day (US) or mass/sq m/day (SI) for zero-order reactions.</P>
+
+<P></P>
+
+<P><B><U>Limiting Concentration</U></B> </P>
+
+<P></P>
+
+<P>Maximum concentration that a substance can grow to or minimum value it can decay to. Bulk reaction rates will be proportional to the difference between the current concentration and this value. Leave blank if not applicable. </P>
+
+<P></P>
+
+<P><B><U>Wall Coefficient Correlation</U></B> </P>
+
+<P></P>
+
+<P>Factor correlating wall reaction coefficient to pipe roughness. See <A HREF="2ovdbva.htm">Wall Reaction - Pipe Roughness Correlation</A> for more details. Leave blank if not applicable.</P>
+
+<P><B><U>Settling Velocity</U></B></P>
+
+<P></P>
+
+<P>The settling velocity of particles in still water (ft/sec or m/sec) (e.g., if it takes 600 minutes to completely settle the initially well-mixed particles in a 1 foot high column, then the settling velocity is 1/600/60 ft/sec. Only used for particle sediment modeling.</P>
+
+<P><B><U>Deposition Velocity</U></B></P>
+
+<P></P>
+
+<P>The pipe flow velocity below which settling of particles can occur (ft/sec or m/sec). Only used for particle sediment modeling.</P>
+
+<P><B><U>Re-suspension Velocity</U></B></P>
+
+<P></P>
+
+<P>The pipe flow velocity above which all previously settled particles will become suspended in the flow field (ft/sec or m/sec). Only used for particle sediment modeling.</P>
+
+<P><B><U>Reference Diameter</U></B></P>
+
+<P></P>
+
+<P>The pipe diameter to which the specified re-suspension velocity applies. The re-suspension velocity for pipes of other sizes will be adjusted by the factor (d/dref)1/2. A value of 0 will indicate that no adjustment for pipe size should occur. Only used for particle sediment modeling.</P>
+
+</BODY>
+</HTML>

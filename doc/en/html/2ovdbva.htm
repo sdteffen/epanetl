@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Wall Reaction - Pipe Roughness Correlation</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Water Quality Reactions">
+	<PARAM NAME="Keyword" VALUE="Water Quality Reactions,Wall Reaction - Pipe Roughness">
+</OBJECT>
+
+<P><A NAME="2ovdbva"></A></P>
+
+<H2>Wall Reaction - Pipe Roughness Correlation</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P>It is well known that as metal pipes age their roughness tends to increase due to encrustation and tuburculation of corrosion products on the pipe walls. This increase in roughness produces a lower Hazen-Williams C-factor or a higher Darcy-Weisbach roughness coefficient, resulting in greater frictional headloss in flow through the pipe.</P>
+
+<P></P>
+
+<P>There is some evidence to suggest that the same processes that increase a pipe's roughness with age also tend to increase the reactivity of its wall with some chemical species, particularly chlorine and other disinfectants. EPANET can make each pipe's wall reaction coefficient (Kw) be a function of the coefficient used to describe its roughness. A different function applies depending on the formula used to compute headloss through the pipe:</P>
+
+<P></P>
+
+<TABLE cols=1 width=312>
+
+<TR VALIGN="top">
+<TD width=100%><B>Headloss Formula</B>  <B>Wall Reaction Formula</B>
+<P>Hazen-Williams  Kw = F / C</P>
+
+<P>Darcy-Weisbach  Kw = -F / log(e/d)</P>
+
+<P>Chezy-Manning  Kw = F* N</P>
+</TD>
+</TR>
+</TABLE><BR>
+
+<P></P>
+
+<P>where</P>
+
+<P></P>
+
+<TABLE cols=3 width=311>
+
+<TR VALIGN="top">
+<TD width=10%>C</TD>
+<TD width=7%>=</TD>
+<TD width=83%>Hazen-Williams C-factor</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=10%>  e</TD>
+<TD width=7%>=</TD>
+<TD width=83%>Darcy-Weisbach roughness</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=10%>  d</TD>
+<TD width=7%>=</TD>
+<TD width=83%>pipe diameter</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=10%>  N</TD>
+<TD width=7%>=</TD>
+<TD width=83%>Manning roughness coefficient</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=10%>  F</TD>
+<TD width=7%>=</TD>
+<TD width=83%>wall reaction - pipe roughness coefficient</TD>
+</TR>
+</TABLE><BR>
+
+<P></P>
+
+<P>The coefficient F must be developed from site-specific field measurements and will have a different meaning depending on which headloss equation is used. The advantage of using this approach is that it requires only a single parameter, F, to allow wall reaction coefficients to vary throughout the network in a physically meaningful way.</P>
+
+</BODY>
+</HTML>

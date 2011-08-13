@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Rule Format</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Rule-Based Controls">
+	<PARAM NAME="Keyword" VALUE="Rule-Based Controls,Rule Format">
+</OBJECT>
+
+<P><A NAME="rule_format"></A></P>
+
+<H2>Rule Format</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P><A HREF="1kwd8.p.htm"><B>Rule-based Controls</B></A> are statements of the form:</P>
+
+<P><B>RULE</B> <I>ruleID</I></P>
+
+<P><B>IF</B>  condition_1</P>
+
+<P><B>AND</B> condition_2</P>
+
+<P><B>OR</B>  condition_3</P>
+
+<P><B>AND</B> condition_4</P>
+
+<P>etc.</P>
+
+<P><B>THEN</B> action_1</P>
+
+<P><B>AND</B>  action_2</P>
+
+<P>etc.</P>
+
+<P><B>ELSE</B> action_3</P>
+
+<P><B>AND</B>  action_4</P>
+
+<P>etc.</P>
+
+<P><B>PRIORITY</B> <I>priority</I></P>
+
+<P></P>
+
+<P>where</P>
+
+<TABLE cols=3 width=372>
+
+<TR VALIGN="top">
+<TD width=23%><I>ruleID</I></TD>
+<TD width=8%>  = </TD>
+<TD width=69%>an ID label assigned to the rule</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=23%>conditon_n</TD>
+<TD width=8%>  = </TD>
+<TD width=69%>a condition clause</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=23%>action_n</TD>
+<TD width=8%>  = </TD>
+<TD width=69%>an action clause</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=23%><I>priority</I></TD>
+<TD width=8%>  = </TD>
+<TD width=69%>a priority value (e.g., a number from 1 to 5)</TD>
+</TR>
+</TABLE><BR>
+
+<P></P>
+
+<P></P>
+
+<P>The following conventions apply to rule statements:</P>
+
+<P></P>
+
+<P>1.Only the <B>RULE</B>, <B>IF</B> and <B>THEN</B> portions of a rule are required; the other portions are optional.</P>
+
+<P>2.Any number and combination of <B>AND</B> and <B>OR</B> clauses can be used in a rule.</P>
+
+<P>3.When mixing <B>AND</B> and <B>OR</B> clauses, the <B>OR</B> operator has higher precedence than <B>AND</B>, i.e.,</P>
+
+<P>IF A or B and C</P>
+
+<P>is equivalent to</P>
+
+<P>IF (A or B) and C.</P>
+
+<P></P>
+
+<P>If the interpretation was meant to be IF A or (B and C)then this can be expressed using two rules as in</P>
+
+<P>Rule 1: IF A THEN ...</P>
+
+<P>Rule 2: IF B and C THEN ...</P>
+
+<P></P>
+
+<P>4.The <B>PRIORITY</B> value is used to determine which rule applies when two or more rules require that conflicting actions be taken on a link. The higher the value the higher the priority. A rule without a priority value always has a lower priority than one with a value. For two rules with the same priority value, the rule that appears first is given the higher priority.</P>
+
+<P>5.There is no limit on the number of rule statements that can be added to a project.</P>
+
+</BODY>
+</HTML>

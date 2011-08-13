@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Parcel Tracking Algorithm</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Parcel Tracking Algorithm">
+</OBJECT>
+
+<P><A NAME="parcel_tracking_algorithm"></A></P>
+
+<H2>Parcel Tracking Algorithm</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P>EPANET tracks the change in water quality of discrete parcels of water as they move along pipes and mix together at junctions between fixed-length time steps. The following actions occur at the end of each such time step:</P>
+
+<P></P>
+
+<P>1.The water quality in each parcel is updated to reflect any reaction that may have occurred over the time step.</P>
+
+<P>2.The water from the leading parcels of pipes with flow into each junction is blended together, along with any external inflow to the junction, to compute a new water quality value at the junction. The volume contributed from each parcel equals the product of its pipe's flow rate and the time step. If this volume exceeds that of the leading parcel then the leading parcel is destroyed and the next parcel in line behind it begins to contribute its volume.</P>
+
+<P>3.New parcels are created in pipes with flow out of each junction. The parcel volume equals the product of the pipe flow and the time step. The parcel's water quality equals the new junction value computed in Step 2.</P>
+
+<P></P>
+
+<P>To cut down on the number of parcels, Step 3 is only carried out if the new junction quality differs by a user-specified tolerance from that of the last parcel in the outflow pipe. If the difference in quality is below the tolerance then the size of the last parcel is simply increased by the volume of flow released into the pipe over the time step with no change in quality.</P>
+
+<P></P>
+
+<P>The updating of water quality in storage tanks receives special treatment (see <A HREF="tank_mixing_models.htm">Tank Mixing Models</A>).</P>
+
+<P></P>
+
+<P>Initially each pipe in the network consists of a single parcel whose quality equals the initial quality assigned to the upstream node. Whenever there is a flow reversal in a pipe, the pipe's parcels are reordered from front to back.</P>
+
+</BODY>
+</HTML>

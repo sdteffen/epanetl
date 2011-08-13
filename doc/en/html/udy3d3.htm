@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>(Untitled)</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<P><A NAME="udy3d3"></A></P>
+
+<P><B><U>Disconnected Network</U></B></P>
+
+<P>EPANET classifies a network as being disconnected if there is no way to provide water to all nodes that have demands. This can occur if there is no path of open links between a junction with demand and either a reservoir, a tank, or a junction with a negative demand. If the problem is caused by a closed link EPANET will still compute a hydraulic solution (probably with extremely large negative pressures) and attempt to identify the problem link in its <A HREF="status_report.htm">Status Report</A>. If no connecting link(s) exist EPANET will be unable to solve the hydraulic equations for flows and pressures and will return an Error 110 message when an analysis is made. Under an extended period simulation it is possible for nodes to become disconnected as links change status over time.</P>
+
+</BODY>
+</HTML>

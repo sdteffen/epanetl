@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Map Label Properties</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Map Labels">
+	<PARAM NAME="Keyword" VALUE="Map Labels,Properties">
+</OBJECT>
+
+<P><A NAME="map_label_properties"></A></P>
+
+<H2>Map Label Properties</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P><B>Text</B></P>
+
+<P>The label's text.</P>
+
+<P></P>
+
+<P><B><U>X-Coordinate</U></B></P>
+
+<P>The horizontal location of the upper left corner of the label on the map, measured in the map's distance units. This is a required property.</P>
+
+<P></P>
+
+<P><B><U>Y-Coordinate</U></B></P>
+
+<P>The vertical location of the upper left corner of the label on the map, measured in the map's distance units. This is a required property.</P>
+
+<P></P>
+
+<P><B><U>Anchor Node</U></B></P>
+
+<P>ID of node that serves as the label's anchor point (see Note 1 below). Leave blank if label will not be anchored.</P>
+
+<P></P>
+
+<P><B><U>Meter Type</U></B></P>
+
+<P>Type of object being metered by the label (see Note 2 below). Choices are <B>None,</B> <B>Node,</B> or <B>Link.</B> </P>
+
+<P></P>
+
+<P><B><U>Meter ID</U></B></P>
+
+<P>ID of the object (Node or Link) being metered.</P>
+
+<P></P>
+
+<P><B><U>Font</U></B></P>
+
+<P>Displays an ellipsis button that when clicked, will display a Font Dialog form that allows selection of the label's font, size, and style.</P>
+
+<P></P>
+
+<P><B>Notes:</B></P>
+
+<P></P>
+
+<P>1.A label's anchor node property is used to anchor the label relative to a given location on the map. When the map is zoomed in the label will appear the same distance from its anchor node as it did under the full extent view. This feature prevents labels from wandering too far away from the objects they were meant to describe when a map is zoomed.</P>
+
+<P>2.The Meter Type and ID properties determine if the label will act as a meter. Meter labels display the value of the currently viewed parameter (chosen from the <A HREF="map_browser.htm">Map Browser</A>) underneath the label text. The Meter Type and ID must refer to an existing node or link in the network. Otherwise, only the label text appears.</P>
+
+</BODY>
+</HTML>

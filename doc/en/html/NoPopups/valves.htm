@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Valves</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Valves">
+	<PARAM NAME="Keyword" VALUE="Valves,Description">
+</OBJECT>
+
+<P><A NAME="valves"></A></P>
+
+<H2>Valves</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P><B>Valves</B> are used to control the pressure or flow at a specific point in the network.</P>
+
+<P></P>
+
+<P>·Shutoff (gate) valves and check (non-return) valves, which completely open or close pipes, are not considered as separate valve components but are instead included as a property of the pipe in which they are placed (see <A HREF="pipe_properties.htm">Pipe Properties</A>).</P>
+
+<P></P>
+
+<P>·The different types of valves include:</P>
+
+<P></P>
+
+<P><IMG SRC="../images/bm56.gif" ALT="" BORDER=0><A HREF="pressure_reducing_valve.htm">PRV (Pressure Reducing Valve)</A></P>
+
+<P><IMG SRC="../images/bm56.gif" ALT="" BORDER=0><A HREF="1eo63bp.htm">PSV (Pressure Sustaining Valve)</A></P>
+
+<P><IMG SRC="../images/bm56.gif" ALT="" BORDER=0><A HREF="pressure_breaker_valve.htm">PBV (Pressure Breaker Valve)</A></P>
+
+<P><IMG SRC="../images/bm56.gif" ALT="" BORDER=0><A HREF="flow_control_valve.htm">FCV (Flow Control Valve)</A></P>
+
+<P><IMG SRC="../images/bm56.gif" ALT="" BORDER=0><A HREF="throttle_control_valve.htm">TCV (Throttle Control Valve)</A></P>
+
+<P><IMG SRC="../images/bm56.gif" ALT="" BORDER=0><A HREF="general_purpose_valve.htm">GPV (General Purpose Valve)</A></P>
+
+<P></P>
+
+<P>·The General Purpose Valve (GPV) can be used to represent a link where the flow - headloss relationship is supplied by the user instead of following one of the standard hydraulic formulas.</P>
+
+<P></P>
+
+<P>·Each type of valve has a different type of setting parameter that describes its operating point (pressure for PRVs, PSVs, and PBVs; flow for FCVs; loss coefficient for TCVs, and headloss curve for GPVs).</P>
+
+<P></P>
+
+<P>·Valves can have their control status overridden by specifying they be either completely open or completely closed.</P>
+
+<P></P>
+
+<P>·A valve's status and its setting can be changed during the simulation by using <A HREF="controls.htm">Controls</A>. (To restore a valve's control status after its status has been overridden to open or closed use a control that specifies a value for the valve setting.)</P>
+
+<P></P>
+
+<P>·Because of the ways in which valves are modeled the following rules apply when adding valves to a network:</P>
+
+<P><IMG SRC="../images/bm56.gif" ALT="" BORDER=0>a PRV, PSV or FCV cannot be directly connected to a reservoir or tank (use a length of pipe to separate the two)</P>
+
+<P><IMG SRC="../images/bm56.gif" ALT="" BORDER=0>PRVs cannot share the same downstream node or be linked in series</P>
+
+<P><IMG SRC="../images/bm56.gif" ALT="" BORDER=0>two PSVs cannot share the same upstream node or be linked in series</P>
+
+<P><IMG SRC="../images/bm56.gif" ALT="" BORDER=0>a PSV cannot be connected to the downstream node of a PRV.</P>
+
+<P></P>
+
+<P><B>See Also:</B></P>
+
+<P></P>
+
+<P><A HREF="2a3k34n.htm">Valve Properties</A></P>
+
+</BODY>
+</HTML>

@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Junction Properties</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Junctions">
+	<PARAM NAME="Keyword" VALUE="Junctions,Properties">
+</OBJECT>
+
+<P><A NAME="junction_properties"></A></P>
+
+<H2>Junction Properties</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P><B>Junction ID</B></P>
+
+<P>A unique label used to identify the junction. It can consist of a combination of up to 15 numerals or characters. It cannot be the same as the ID for any other node. This is a required property.</P>
+
+<P></P>
+
+<P><B><U>X-Coordinate</U></B></P>
+
+<P>The horizontal location of the junction on the map, measured in the map's distance units. If left blank the junction will not appear on the network map.</P>
+
+<P></P>
+
+<P><B><U>Y-Coordinate</U></B></P>
+
+<P>The vertical location of the junction on the map, measured in the map's distance units. If left blank the junction will not appear on the network map.</P>
+
+<P></P>
+
+<P></P>
+
+<P><B><U>Description</U></B></P>
+
+<P>An optional text string that describes other significant information about the junction.</P>
+
+<P></P>
+
+<P><B><U>Tag</U></B></P>
+
+<P>An optional text string (with no spaces) used to assign the junction to a category, such as a pressure zone.</P>
+
+<P></P>
+
+<P><B><U>Elevation</U></B></P>
+
+<P>The elevation in feet (meters) above some common reference of the junction. This is a required property. Elevation is used only to compute pressure at the junction. It does not affect any other computed quantity.</P>
+
+<P></P>
+
+<P><B><U>Base Demand</U></B></P>
+
+<P></P>
+
+<P>The average or nominal demand for water by the main category of consumer at the junction, as measured in the current flow units. A negative value is used to indicate an external source of flow into the junction. If left blank then demand is assumed to be zero. </P>
+
+<P></P>
+
+<P><B><U>Demand Pattern</U></B></P>
+
+<P>The ID label of the <A HREF="time_patterns.htm">time pattern</A> used to characterize time variation in demand for the main category of consumer at the junction. The pattern provides multipliers that are applied to the Base Demand to determine actual demand in a given time period. If left blank then the <B>Default Time Pattern</B> assigned in the <A HREF="xk_b0r.htm">Hydraulic Options</A> will be used.</P>
+
+<P></P>
+
+<P><B><U>Demand Categories</U></B></P>
+
+<P>When the ellipsis button is clicked a <A HREF="demand_editor.htm">Demand Category Editor</A> is displayed that allows base demands and time patterns to be assigned to other categories of users at the junction.</P>
+
+<P></P>
+
+<P><B><U>Emitter Coefficient</U></B></P>
+
+<P>Discharge coefficient for emitter (sprinkler or nozzle) placed at junction. Units are flow units at 1 unit of pressure drop (psi or m). Leave blank or set to 0 if no emitter is present. See <A HREF="emitters.htm">Emitters</A> for more details.</P>
+
+<P></P>
+
+<P><B><U>Initial Quality</U></B></P>
+
+<P></P>
+
+<P>Water quality level at the junction at the start of the simulation. Can be left blank if no water quality analysis is being made or if the level is zero.</P>
+
+<P></P>
+
+<P><B><U>Source Quality</U></B></P>
+
+<P>When the ellipsis button is clicked a <A HREF="source_quality_editor.htm">Source Quality Editor</A> appears in which the quality of any water entering the network at this location can be specified.</P>
+
+</BODY>
+</HTML>

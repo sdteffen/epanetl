@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Valve Properties</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Valves">
+	<PARAM NAME="Keyword" VALUE="Valves,Properties">
+</OBJECT>
+
+<P><A NAME="2a3k34n"></A></P>
+
+<H2>Valve Properties</H2>
+
+<P><B></B></P>
+
+<P><B></B></P>
+
+<P><B>ID Label</B></P>
+
+<P>A unique label used to identify the valve. It can consist of a combination of up to 15 numerals or characters. It cannot be the same as the ID for any other link. This is a required property.</P>
+
+<P></P>
+
+<P><B><U>Start Node</U></B></P>
+
+<P>The ID of the node on the nominal upstream or inflow side of the valve. (PRVs and PSVs maintain flow in only a single direction.)  This is a required property.</P>
+
+<P></P>
+
+<P><B><U>End Node</U></B></P>
+
+<P>The ID of the node on the nominal downstream or discharge side of the valve. This is a required property.</P>
+
+<P></P>
+
+<P></P>
+
+<P><B><U>Description</U></B></P>
+
+<P>An optional text string that describes other significant information about the valve.</P>
+
+<P></P>
+
+<P><B><U>Tag</U></B></P>
+
+<P>An optional text string (with no spaces) used to assign the valve to a category, perhaps based on type or location.</P>
+
+<P></P>
+
+<P><B><U>Diameter</U></B></P>
+
+<P>The valve diameter in inches (mm). This is a required property.</P>
+
+<P></P>
+
+<P><B><U>Type</U></B></P>
+
+<P>The valve type (PRV, PSV, PBV, FCV, TCV, or GPV). See <A HREF="valves.htm">Valves</A> for descriptions of the various types of valves. This is a required property.</P>
+
+<P></P>
+
+<P><B><U>Setting</U></B></P>
+
+<P>A required parameter that describes the valve's operational setting.</P>
+
+<P></P>
+
+<P><I><U>Valve Type</U></I>      <I><U>Setting Parameter</U></I></P>
+
+<P>PRV                 Pressure (psi or m)</P>
+
+<P>PSV                 Pressure (psi or m)</P>
+
+<P>PBV                 Pressure (psi or m)</P>
+
+<P>FCV                 Flow (flow units)</P>
+
+<P>TCV                 Loss Coeff. (unitless)</P>
+
+<P>GPV                ID of head loss curve</P>
+
+<P></P>
+
+<P><B><U>Loss Coefficient</U></B></P>
+
+<P>Unitless minor loss coefficient that applies when the valve is completely opened. Assumed 0 if left blank.</P>
+
+<P></P>
+
+<P><B><U>Fixed Status</U></B></P>
+
+<P>Valve status at the start of the simulation. If set to OPEN or CLOSED then the control setting of the valve is ignored and the valve behaves as an open or closed link, respectively. If set to NONE, then the valve will behave as intended.</P>
+
+<P></P>
+
+<P><B>NOTE</B>:A valve's fixed status and its setting can be made to vary throughout a simulation by the use of <A HREF="controls.htm">control statements</A>. If a valve's status was fixed to OPEN/CLOSED, then it can be made active again using a control that assigns a new numerical setting to it.</P>
+
+</BODY>
+</HTML>
