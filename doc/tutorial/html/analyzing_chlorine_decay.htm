@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Analyzing Chlorine Decay</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Analyzing Chlorine Decay">
+</OBJECT>
+
+<P><A NAME="analyzing_chlorine_decay"></A><B>Analyzing Chlorine Decay</B></P>
+
+<P>Finally we show how to simulate the transport and decay of chlorine through the network. Make the following changes to the database:</P>
+
+<P>1.Select <B>Options - Quality</B> from the Data Browser to edit. In the Property Editor’s Parameter field type in the word Chlorine.</P>
+
+<P>2.Switch to <B>Options - Reactions</B> in the Data Browser. For Global Bulk Coefficient enter a value of -1.0. This reflects the rate at which chlorine will decay due to reactions in the bulk flow over time. This rate will apply to all pipes in the network. You could edit this value for individual pipes if you needed to.</P>
+
+<P>3.Click on the reservoir node and set its Initial Quality to 1.0. This will be the concentration of chlorine that continuously enters the network. (Reset the initial quality at the Tank to 0 if you had changed it in the previous topic.)</P>
+
+<P>Now run the example. Use the Time controls on the Map Browser to see how chlorine levels change by location and time throughout the simulation. Note how for this simple network, only junctions 5, 6 and 7 see depressed chlorine levels because of being fed by low chlorine water from the tank.</P>
+
+<P>Create a reaction report for this network by selecting <B>Report | Reaction</B> from the main menu. The report shows on average how much chlorine loss occurs in the pipes as opposed to the tank. The term "Bulk" refers to reactions occurring in the bulk fluid while "Wall" refers to reactions with material on the pipe wall. The latter reaction is zero because we did not specify any wall reaction coefficient in this example.</P>
+
+</BODY>
+</HTML>

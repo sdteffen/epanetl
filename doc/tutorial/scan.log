@@ -1,0 +1,57 @@
+Scan Results for HTML Project: tutorial.hhp
+HHPMod Version 3.1.18
+August 14, 2011: 08:24 AM
+
+HTML Project File: C:\tmp\tutorial\tutorial.hhp
+HTML Contents File: None.
+HTML Index File: C:\tmp\tutorial\TUTORIAL.hhk
+
+Original WinHelp 4 Project File: C:\tmp\tutorial\TUTORIAL.HPJ
+
+Data Extracted from WinHelp 4 Project File:
+---------------------------------------------
+
+ Number of ContextID's defined =  0
+
+Data extracted from HTML Help Project File created by HTML Workshop:
+---------------------------------------------------------------------------
+
+ Topic Files (total): 21
+ Untitled Topics: 1 (may be converted popups)
+
+ Note - in the listing below, the new .htm file name will be
+derived from the first Winhelp Topic_ID.
+
+.htm File:         WinHelp Topic_ID's:                 WinHelp Topic Title:                                                                     
+----------         -----------------                   --------------------                                                                     
+
+tuto9fqj.htm       example_network                     Example Network
+tuto9k4z.htm       drawing_the_network_s_nodes         Drawing the Network's Nodes
+tuto7jn7.htm       drawing_the_network_s_links         Drawing the Network's Links
+tuto47hv.htm       adding_map_labels                   Adding Map Labels
+tuto59df.htm       setting_object_properties           Setting Object Properties
+tuto3rxv.htm       setting_node_properties             Setting Node Properties
+tuto34c3.htm       setting_link_properties             Setting Link Properties
+tuto3q9f.htm       running_a_single_period_analysis    Running a Single Period Analysis
+tuto6vfw.htm       epanet_tutorial                     EPANET TUTORIAL
+tuto8r1v.htm       saving_and_opening_projects         Saving and Opening Projects
+tuto8l7y.htm       adding_a_time_pattern               Adding a Time Pattern
+tuto6ilq.htm       running_an_extended_period_simulation Running an Extended Period Simulation
+tuto1jqd.htm       analyzing_water_age                 Analyzing Water Age
+tuto7ozd.htm       analyzing_chlorine_decay            Analyzing Chlorine Decay
+tuto6d0l.htm       other_things_to_explore             Other Things to Explore
+tuto2e3p.htm       adding_a_pump_curve                 Adding a Pump Curve
+tuto6r3k.htm       project_setup                       Project Setup
+tuto8lmb.htm       setting_map_options                 Setting Map Options
+tuto95rn.htm       re_positioning_objects              Re-Positioning Objects
+tuto96jy.htm       creating_the_pattern                Creating the Pattern
+
+     Topic Files Without Titles:
+----------------------------------------------------------------
+
+.htm File:         WinHelp Topic_ID's:           Number of Internal (from other .htm Files)                                                     
+                                                 And External(via Map Files) References:                                                        
+                                                   Internal:     External:                                                                      
+----------         -----------------             -------------------------------------                                                          
+
+tuto1sxc.htm       network_map                          0           0

@@ -1,0 +1,105 @@
+<HTML>
+<!-- Sitemap 1.0 -->
+<OBJECT type="text/site properties">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Adding a Pump Curve">
+		<param name="Name" value="Adding a Pump Curve">
+		<param name="Local" value="html/adding_a_pump_curve.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Adding a Time Pattern">
+		<param name="Name" value="Adding a Time Pattern">
+		<param name="Local" value="html/adding_a_time_pattern.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Adding Map Labels">
+		<param name="Name" value="Adding Map Labels">
+		<param name="Local" value="html/adding_map_labels.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Analyzing Chlorine Decay">
+		<param name="Name" value="Analyzing Chlorine Decay">
+		<param name="Local" value="html/analyzing_chlorine_decay.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Analyzing Water Age">
+		<param name="Name" value="Analyzing Water Age">
+		<param name="Local" value="html/analyzing_water_age.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Creating the Pattern">
+		<param name="Name" value="Creating the Pattern">
+		<param name="Local" value="html/creating_the_pattern.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Drawing the Network">
+		<param name="Name" value="Drawing the Network's Nodes">
+		<param name="Local" value="html/drawing_the_network_s_nodes.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Drawing the Network's Links">
+		<param name="Name" value="Drawing the Network's Links">
+		<param name="Local" value="html/drawing_the_network_s_links.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="EPANET TUTORIAL">
+		<param name="Name" value="EPANET TUTORIAL">
+		<param name="Local" value="html/epanet_tutorial.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Network Map">
+		<param name="Local" value="html/network_map.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Other Things to Explore">
+		<param name="Name" value="Other Things to Explore">
+		<param name="Local" value="html/other_things_to_explore.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Project Setup">
+		<param name="Name" value="Project Setup">
+		<param name="Local" value="html/project_setup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Re-Positioning Objects">
+		<param name="Name" value="Re-Positioning Objects">
+		<param name="Local" value="html/re_positioning_objects.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Running a Single Period Analysis">
+		<param name="Name" value="Running a Single Period Analysis">
+		<param name="Local" value="html/running_a_single_period_analysis.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Running an Extended Period Simulation">
+		<param name="Name" value="Running an Extended Period Simulation">
+		<param name="Local" value="html/running_an_extended_period_simulation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Saving and Opening Projects">
+		<param name="Name" value="Saving and Opening Projects">
+		<param name="Local" value="html/saving_and_opening_projects.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Setting Link Properties">
+		<param name="Name" value="Setting Link Properties">
+		<param name="Local" value="html/setting_link_properties.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Setting Map Options">
+		<param name="Name" value="Setting Map Options">
+		<param name="Local" value="html/setting_map_options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Setting Node Properties">
+		<param name="Name" value="Setting Node Properties">
+		<param name="Local" value="html/setting_node_properties.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Setting Object Properties">
+		<param name="Name" value="Setting Object Properties">
+		<param name="Local" value="html/setting_object_properties.htm">
+		</OBJECT>
+</UL></HTML>

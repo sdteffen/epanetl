@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="EPANET 2 Tutorial">
+		<param name="Local" value="html\epanet_tutorial.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Example Network">
+			<param name="Local" value="html\example_network.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Project Setup">
+			<param name="Local" value="html\project_setup.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Setting Map Options">
+			<param name="Local" value="html\setting_map_options.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Drawing the Network's Nodes">
+			<param name="Local" value="html\drawing_the_network_s_nodes.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Drawing the Network's Links">
+			<param name="Local" value="html\drawing_the_network_s_links.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Adding Map Labels">
+			<param name="Local" value="html\adding_map_labels.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Re-Positioning Objects">
+			<param name="Local" value="html\re_positioning_objects.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Setting Object Properteis">
+			<param name="Local" value="html\setting_object_properties.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Setting Node Properties">
+				<param name="Local" value="html\setting_node_properties.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Setting Link Properties">
+				<param name="Local" value="html\setting_link_properties.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Adding a Pump Curve">
+				<param name="Local" value="html\adding_a_pump_curve.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Saving and Opening Projects">
+			<param name="Local" value="html\saving_and_opening_projects.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Running a Single Period Analysis">
+			<param name="Local" value="html\running_a_single_period_analysis.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Adding a Time Pattern">
+			<param name="Local" value="html\adding_a_time_pattern.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Creating the Pattern">
+				<param name="Local" value="html\creating_the_pattern.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Running an Extended Period Simulation">
+				<param name="Local" value="html\running_an_extended_period_simulation.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Analyzing Water Age">
+			<param name="Local" value="html\analyzing_water_age.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Analyzing Chlorine Decay">
+			<param name="Local" value="html\analyzing_chlorine_decay.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Other Things to Explore">
+		<param name="Local" value="html\other_things_to_explore.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

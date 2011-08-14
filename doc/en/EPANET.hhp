@@ -6,7 +6,8 @@ Default topic=html\contents.htm
 Display compile progress=No
 Full-text search=Yes
 Index file=EPANET2.hhk
-Language=0x407 Deutsch (Deutschland)
+Language=0x409 Englisch (USA)
+Title=EPANET 2 
 
 
 [FILES]

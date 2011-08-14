@@ -1,0 +1,37 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=tutorial.chm
+Contents file=Table of Contents.hhc
+Default topic=html\epanet_tutorial.htm
+Display compile progress=No
+Full-text search=Yes
+Index file=TUTORIAL.hhk
+Language=0x409 Englisch (USA)
+
+
+[FILES]
+html\example_network.htm
+html\drawing_the_network_s_nodes.htm
+html\drawing_the_network_s_links.htm
+html\adding_map_labels.htm
+html\setting_object_properties.htm
+html\setting_node_properties.htm
+html\setting_link_properties.htm
+html\running_a_single_period_analysis.htm
+html\network_map.htm
+html\epanet_tutorial.htm
+html\saving_and_opening_projects.htm
+html\adding_a_time_pattern.htm
+html\running_an_extended_period_simulation.htm
+html\analyzing_water_age.htm
+html\analyzing_chlorine_decay.htm
+html\other_things_to_explore.htm
+html\adding_a_pump_curve.htm
+html\project_setup.htm
+html\setting_map_options.htm
+html\re_positioning_objects.htm
+html\creating_the_pattern.htm
+
+[INFOTYPES]
+

@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Creating the Pattern</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Creating the Pattern">
+</OBJECT>
+
+<P><A NAME="creating_the_pattern"></A><B>Creating the Time Pattern</B></P>
+
+<P>To create the time pattern:</P>
+
+<P>1.Select the <B>Patterns</B> category in the Data Browser</P>
+
+<P>2.Click the <IMG SRC="../images/bm24.gif" ALT="" BORDER=0> button (or press the <B>Insert</B> key). A new Pattern 1 will be created and the Pattern Editor dialog should appear.</P>
+
+<P>3. Enter the multiplier values 0.5, 1.3, 1.0, 1.2 for the time periods 1 to 4.</P>
+
+<P>4.Click the <B>OK</B> button to close the Pattern Editor.</P>
+
+<P>The multipliers are used to modify the demand from its base level in each time period. Since we are making a run of 72 hours, the pattern will wrap around to the start once again after each 24-hour interval of time.</P>
+
+<P>We now need to assign Pattern 1 to the Demand Pattern property of all of the junctions in our network. We can utilize one of EPANET’s Hydraulic Options to avoid having to edit each junction individually. If you bring up <B>Options - Hydraulics</B> in the Property Editor you will see that there is an item called Default Pattern. Setting its value equal to 1 will make the Demand Pattern at each junction equal Pattern 1 providing no other pattern is assigned to the junction.</P>
+
+</BODY>
+</HTML>
