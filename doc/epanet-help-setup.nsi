@@ -121,7 +121,7 @@ Section -Main SEC0000
     File .\tutorial\tutorial.chm
     SetOutPath $SMPROGRAMS\$StartMenuGroup
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\EPANET 2.0 Help (CHM).lnk" $INSTDIR\epanet2.chm
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Epanet Tutoial (CHM).lnk" $INSTDIR\tutorial.chm
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Epanet Tutorial (CHM).lnk" $INSTDIR\tutorial.chm
     WriteRegStr HKLM "${REGKEY}\Components" Main 1
 SectionEnd
 
