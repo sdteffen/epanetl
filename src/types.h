@@ -37,7 +37,7 @@ typedef  int          INT4;                                                    /
 /*** Updated ***/
 #define   CODEVERSION        20012                                             //(2.00.12 - LR)
 #define   MAGICNUMBER        516114521
-#define   VERSION            200
+#define   MAGICVERSION       200
 #define   EOFMARK            0x1A  /* Use 0x04 for UNIX systems */
 #define   MAXTITLE  3        /* Max. # title lines                     */
 #define   MAXID     31       /* Max. # characters in ID name           */      //(2.00.11 - LR)

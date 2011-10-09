@@ -13,5 +13,5 @@ AM_PROG_CC_C_O
 AC_HEADER_STDC
 AC_CHECK_LIB(m, pow)
 
-AC_CONFIG_FILES([Makefile debian/Makefile src/Makefile po/Makefile.in])
+AC_CONFIG_FILES([Makefile debian/Makefile installer/Makefile installer/macosx/Makefile src/Makefile po/Makefile.in])
 AC_OUTPUT

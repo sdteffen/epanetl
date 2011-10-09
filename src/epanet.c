@@ -2596,7 +2596,7 @@ int  openhydfile()
    if (Hydflag != USE)
    {
       magic = MAGICNUMBER;
-      version = VERSION;
+      version = MAGICVERSION;
       nsize[0] = Nnodes;
       nsize[1] = Nlinks;
       nsize[2] = Ntanks;
@@ -2616,7 +2616,7 @@ int  openhydfile()
       fread(&magic,sizeof(INT4),1,HydFile);
       if (magic != MAGICNUMBER) return(306);
       fread(&version,sizeof(INT4),1,HydFile);
-      if (version != VERSION) return(306);
+      if (version != MAGICVERSION) return(306);
       if (fread(nsize,sizeof(INT4),6,HydFile) < 6) return(306);
       if (nsize[0] != Nnodes  || nsize[1] != Nlinks ||
           nsize[2] != Ntanks  || nsize[3] != Npumps ||

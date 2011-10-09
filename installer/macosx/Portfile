@@ -1,0 +1,37 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:filetype=tcl:et:sw=4:ts=4:sts=4
+# $Id: Portfile 75159 2011-01-17 02:00:53Z rmstonecipher@macports.org $
+
+PortSystem      1.0
+PortGroup       archcheck 1.0
+
+name            epanetl
+version         2.0.12.2
+revision        1
+set branch      [join [lrange [split ${version} .] 0 1] .]
+maintainers     nomaintainer
+categories      science 
+platforms       darwin
+description     Hydraulic analysis of water supply networks.
+
+long_description \
+    EPANETL simulates water supply networks.
+
+homepage        http://epanet.de
+master_sites    sourceforge:ghydraulic 
+use_bzip2       no
+
+checksums           md5     e314a3bc7c75e37e56be6c27ce2cdcf2 \
+                    sha1    9a4b8982312438220ed0659826ddcc71463dd3c7 \
+                    rmd160  655f201a19ac4acb0195c949ff4d098bb87c79e8
+
+depends_build \
+    port:intltool
+
+depends_lib \
+    port:gettext
+
+archcheck.files \
+    lib/libintl.dylib
+
+configure.args --disable-nls
+
