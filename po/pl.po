@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: epanet\n"
 "Report-Msgid-Bugs-To: https://sourceforge.net/tracker/?"
 "group_id=5289&atid=105289\n"
-"POT-Creation-Date: 2011-10-05 21:50+0200\n"
+"POT-Creation-Date: 2011-10-09 14:32+0200\n"
 "PO-Revision-Date: 2009-11-02 23:06+0000\n"
 "Last-Translator: poczciwy <Unknown>\n"
 "Language-Team: Polish <pl@li.org>\n"
@@ -45,7 +45,7 @@ msgid ""
 "  o Retrieving network data"
 msgstr ""
 
-#: src/text.h:338 src/i18n.h:95
+#: src/text.h:338
 msgid ""
 "\n"
 " Correct syntax is:\n"
@@ -1041,3 +1041,14 @@ msgstr ""
 #: src/i18n.h:90
 msgid "*                         Version 2.00.12                        *"
 msgstr "* Wersja 2.00.12 *"
+
+#: src/i18n.h:95
+#, fuzzy
+msgid ""
+"\n"
+" Correct syntax is:\n"
+" epanet <input file> <output file> [<binary result file>]\n"
+msgstr ""
+"\n"
+" Prawidłowa składnia:\n"
+" epanet <plik wejściowy> <plik wyjściowy>\n"

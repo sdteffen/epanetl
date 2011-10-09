@@ -180,3 +180,14 @@ export LDFLAGS=-lintl
 Eidt src/Makefile: Change localedir to ../locale
 make
 
+Special cross compilation instructions
+======================================
+
+On Ubuntu: 
+
+sudo apt-get install -y mingw32 make g++ libtool bzip2
+make gettext-mingw
+export LDFLAGS="-L/home/betrieb/tmp/mingw/lib -lintl"
+export CFLAGS=-I/home/betrieb/tmp/mingw/include
+./configure --host=i586-mingw32msvc --disable-shared --enable-static
+

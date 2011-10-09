@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: EPANET 2.0.12\n"
 "Report-Msgid-Bugs-To: https://sourceforge.net/tracker/?"
 "group_id=5289&atid=105289\n"
-"POT-Creation-Date: 2011-10-05 21:50+0200\n"
+"POT-Creation-Date: 2011-10-09 14:32+0200\n"
 "PO-Revision-Date: 2008-07-20 20:30+MEST\n"
 "Last-Translator: Steffen Macke <sdteffen@sdteffen.de>\n"
 "Language-Team: DE <sdteffen@sdteffen.de>\n"
@@ -46,7 +46,7 @@ msgstr ""
 "\n"
 "  o Lese Netzwerkdaten"
 
-#: src/text.h:338 src/i18n.h:95
+#: src/text.h:338
 msgid ""
 "\n"
 " Correct syntax is:\n"
@@ -1088,3 +1088,14 @@ msgstr "*                 analyse für Rohrleitungsnetze                  *"
 #: src/i18n.h:90
 msgid "*                         Version 2.00.12                        *"
 msgstr "*                       Version 2.00.12 (DE)                     *"
+
+#: src/i18n.h:95
+#, fuzzy
+msgid ""
+"\n"
+" Correct syntax is:\n"
+" epanet <input file> <output file> [<binary result file>]\n"
+msgstr ""
+"\n"
+" Die korrekte Syntax lautet:\n"
+" epanet2 <Eingabedatei> <Ausgabedatei>\n"
