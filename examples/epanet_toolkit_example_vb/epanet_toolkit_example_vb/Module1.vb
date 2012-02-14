@@ -2,19 +2,34 @@
 
     ' TODO: Add remaining declarations and constants from epanet2.h
     Declare Sub ENopen Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal inpfile As String, ByVal reportfile As String, ByVal binaryresultfile As String)
+    Declare Sub ENsaveinpfile Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal inpfile As String)
+    Declare Sub ENclose Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
+
+    Declare Sub ENsolveH Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
+    Declare Sub ENsaveH Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
+    Declare Sub ENopenH Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
+    Declare Sub ENinitH Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal timestep As Integer)
+    Declare Sub ENrunH Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByRef timestep As Integer)
+    Declare Sub ENnextH Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByRef timestep As Integer)
+    Declare Sub ENcloseH Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
+    Declare Sub ENsavehydfile Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal hydfile As String)
+    Declare Sub ENusehydfile Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal hydfile As String)
+
+    Declare Sub ENsolveQ Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
+    Declare Sub ENopenQ Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
+    Declare Sub ENinitQ Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal timestep As Integer)
+    Declare Sub ENrunQ Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByRef timestep As Integer)
+    Declare Sub ENstepQ Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByRef timestep As Integer)
+    Declare Sub ENcloseQ Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
+
     Declare Sub ENgetcount Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal type As Integer, ByRef count As Integer)
     Declare Sub ENgetnodevalue Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal timestep As Integer, ByVal type As Integer, ByRef value As Single)
     Declare Sub ENgetlinkvalue Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal timestep As Integer, ByVal type As Integer, ByRef value As Single)
-    Declare Sub ENinitQ Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal timestemp As Integer)
-    Declare Sub ENclose Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
-    Declare Sub ENcloseQ Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
-    Declare Sub ENopenQ Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
+
     Declare Sub ENreport Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
-    Declare Sub ENrunQ Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByRef timestep As Integer)
-    Declare Sub ENsolveH Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
-    Declare Sub ENstepQ Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByRef timestep As Integer)
-    Declare Sub ENsolveQ Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
-    
+
+
+
     ' Node parameters
     Public Const EN_ELEVATION = 0
     Public Const EN_BASEDEMAND = 1
