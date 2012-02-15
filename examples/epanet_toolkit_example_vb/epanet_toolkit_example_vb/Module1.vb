@@ -1,6 +1,7 @@
 ﻿Module Module1
 
-    ' TODO: Add remaining declarations and constants from epanet2.h
+    Declare Sub ENepanet Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal f1 As String, ByVal f2 As String, ByVal f3 As String)
+
     Declare Sub ENopen Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal inpfile As String, ByVal reportfile As String, ByVal binaryresultfile As String)
     Declare Sub ENsaveinpfile Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal inpfile As String)
     Declare Sub ENclose Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
@@ -22,13 +23,47 @@
     Declare Sub ENstepQ Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByRef timestep As Integer)
     Declare Sub ENcloseQ Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
 
+    Declare Sub ENwriteline Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal line As String)
+    Declare Sub ENreport Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
+    Declare Sub ENresetreport Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
+    Declare Sub ENsetreport Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
+
+    Declare Sub ENgetcontrol Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal cindex As Integer, ByRef ictype As Integer, ByRef lindex As Integer, ByRef setting As Single, ByRef nindex As Integer, ByRef level As Single)
     Declare Sub ENgetcount Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal type As Integer, ByRef count As Integer)
+    Declare Sub ENgetoption Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal code As Integer, ByRef value As Single)
+    Declare Sub ENgettimeparam Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal code As Integer, ByRef value As Single)
+    Declare Sub ENgetflowunits Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByRef code As Integer)
+    Declare Sub ENgetpatternindex Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal id As String, ByRef index As Integer)
+    Declare Sub ENgetpatternid Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal index As Integer, ByRef id As String)
+    Declare Sub ENgetpatternlen Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal index As Integer, ByRef len As Integer)
+    Declare Sub ENgetpatternvalue Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal index As Integer, ByVal period As Integer, ByRef value As Single)
+    Declare Sub ENgetqualtype Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByRef qualcode As Integer, ByRef tracenode As Integer)
+    Declare Sub ENgeterror Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal errcode As Integer, ByRef errmsg As String, ByVal n As Integer)
+
+    Declare Sub ENgetnodeindex Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal id As String, ByRef index As Integer)
+    Declare Sub ENgetnodeid Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal index As Integer, ByVal id As String)
+    Declare Sub ENgetnodetype Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal index As Integer, ByRef code As Integer)
     Declare Sub ENgetnodevalue Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal timestep As Integer, ByVal type As Integer, ByRef value As Single)
+    Declare Sub ENgetlinkindex Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal id As String, ByRef index As Integer)
+    Declare Sub ENgetlinkid Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal index As Integer, ByVal id As String)
+    Declare Sub ENgetlinktype Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal index As Integer, ByRef code As Integer)
+    Declare Sub ENgetlinknodes Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal index As Integer, ByRef node1 As Integer, ByRef node2 As Integer)
     Declare Sub ENgetlinkvalue Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal timestep As Integer, ByVal type As Integer, ByRef value As Single)
 
-    Declare Sub ENreport Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" ()
+    Declare Sub ENgetversion Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByRef version As Integer)
 
-
+    Declare Sub ENsetcontrol Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal cindex As Integer, ByVal ictype As Integer, ByVal lindex As Integer, ByVal setting As Single, ByVal nindex As Integer, ByVal level As Single)
+    Declare Sub ENsetnodevalue Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal index As Integer, ByVal code As Integer, ByVal v As Single)
+    Declare Sub ENsetlinkvalue Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal index As Integer, ByVal code As Integer, ByVal v As Single)
+    Declare Sub ENaddpattern Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal id As String)
+    Declare Sub ENsetpattern Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal index As Integer, ByRef f As Single, ByVal n As Integer)
+    Declare Sub ENsetpatternvalue Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal index As Integer, ByVal period As Integer, ByVal value As Single)
+    Declare Sub ENsettimeparam Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal code As Integer, ByVal value As Single)
+    Declare Sub ENsetoption Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal code As Integer, ByVal v As Single)
+    Declare Sub ENsetstatusreport Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal code As Integer)
+    Declare Sub ENsetqualtype Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal qualcode As Integer, ByVal chemname As String, ByVal chemunits As String, ByVal tracenode As String)
+    Declare Sub ENgetheadcurve Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal index As Integer, ByVal id As String)
+    Declare Sub ENgetpumptype Lib "C:\tmp\epanet_toolkit_example_vb\epanet_toolkit_example_vb\bin\Debug\epanet2.dll" (ByVal index As Integer, ByVal type As Integer)
 
     ' Node parameters
     Public Const EN_ELEVATION = 0
@@ -172,6 +207,7 @@
         Dim t As Integer
         Dim tleft As Integer
         Dim value As Single
+        Dim id As String
 
         Call ENopen("C:\tmp\epanet_toolkit_example_vb\Net1.inp", "", "")
         Call ENgetcount(EN_NODECOUNT, num_nodes)
@@ -179,17 +215,24 @@
         ENsolveH()
         ENopenQ()
         ENinitQ(0)
+
         Do  
             ENrunQ(t)
             For i = 0 To num_nodes - 1 Step 1
                 ENgetnodevalue(i, EN_QUALITY, value)
-                Console.WriteLine(value)
+                id = "".PadRight(255, Chr(0))
+                ENgetnodeid(i, id)
+                id = id.Trim(Chr(0))
+                Console.WriteLine("Node " + id + " Quality " + Str(value))
                 ENgetnodevalue(i, EN_PRESSURE, value)
-                Console.WriteLine(value)
+                Console.WriteLine("Node " + id + " Pressure " + Str(value))
             Next
             For i = 0 To num_links - 1 Step 1
                 ENgetlinkvalue(i, EN_FLOW, value)
-                Console.WriteLine(value)
+                id = "".PadRight(255, Chr(0))
+                ENgetlinkid(i, id)
+                id = id.Trim(Chr(0))
+                Console.WriteLine("Link " + id + " Flow " + Str(value))
             Next
             ENstepQ(tleft)
         Loop Until (tleft = 0)
