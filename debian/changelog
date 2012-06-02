@@ -1,3 +1,9 @@
+epanetl (2.0.12.3-9) precise; urgency=low
+
+  * Updated translations
+
+ -- Steffen Macke <sdteffen@sdteffen.de>  Sat, 12 May 2012 10:44:01 +0200
+
 epanetl (2.0.12.2-8) lucid; urgency=low
 
   * Second release, includes deb build system

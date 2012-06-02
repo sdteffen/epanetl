@@ -1,3 +1,5 @@
+*.gz
+*.xz
 m4
 src/*.exe
 src/*.o
