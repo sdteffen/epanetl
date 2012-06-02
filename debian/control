@@ -1,5 +1,5 @@
 Source: epanetl
-Section: math
+Section: science 
 Priority: extra
 Maintainer: Steffen Macke <sdteffen@sdteffen.de>
 Build-Depends: debhelper (>= 7), autotools-dev
