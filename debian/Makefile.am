@@ -1,3 +1,4 @@
-EXTRA_DIST = changelog compat control copyright docs epanetl-doc.docs \
-	     epanetl-doc.install rules
+EXTRA_DIST = changelog compat control copyright docs epanetl.dirs \
+	epanetl.install libepanetl-dev.dirs libepanetl-dev.install \
+	libepanetl.dirs libepanetl.install rules
 
